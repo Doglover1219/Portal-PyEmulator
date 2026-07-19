@@ -1,0 +1,6080 @@
+{
+	"ssa": {
+		"type": "folder",
+		"name": "Spyro's Adventure",
+		"children": {
+			"air": {
+				"type": "folder",
+				"name": "Air",
+				"children": {
+					"lightning_rod": {
+						"type": "figure",
+						"name": "Lightning Rod",
+						"path": "1-ssa/1-air/lightning_rod"
+					},
+					"sonic_boom": {
+						"type": "figure",
+						"name": "Sonic Boom",
+						"path": "1-ssa/1-air/sonic_boom"
+					},
+					"warnado": {
+						"type": "figure",
+						"name": "Warnado",
+						"path": "1-ssa/1-air/warnado"
+					},
+					"whirlwind": {
+						"type": "figure",
+						"name": "Whirlwind",
+						"path": "1-ssa/1-air/whirlwind"
+					}
+				}
+			},
+			"life": {
+				"type": "folder",
+				"name": "Life",
+				"children": {
+					"camo": {
+						"type": "figure",
+						"name": "Camo",
+						"path": "1-ssa/2-life/camo"
+					},
+					"stump_smash": {
+						"type": "figure",
+						"name": "Stump Smash",
+						"path": "1-ssa/2-life/stump_smash"
+					},
+					"stealth_elf": {
+						"type": "figure",
+						"name": "Stealth Elf",
+						"path": "1-ssa/2-life/stealth_elf"
+					},
+					"zook": {
+						"type": "figure",
+						"name": "Zook",
+						"path": "1-ssa/2-life/zook"
+					}
+				}
+			},
+			"undead": {
+				"type": "folder",
+				"name": "Undead",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"chop_chop-legendary": {
+								"type": "figure",
+								"name": "Legendary Chop Chop",
+								"path": "1-ssa/3-undead/variants/chop_chop-legendary"
+							}
+						}
+					},
+					"chop_chop": {
+						"type": "figure",
+						"name": "Chop Chop",
+						"path": "1-ssa/3-undead/chop_chop"
+					},
+					"cynder": {
+						"type": "figure",
+						"name": "Cynder",
+						"path": "1-ssa/3-undead/cynder"
+					},
+					"ghost_roaster": {
+						"type": "figure",
+						"name": "Ghost Roaster",
+						"path": "1-ssa/3-undead/ghost_roaster"
+					},
+					"hex": {
+						"type": "figure",
+						"name": "Hex",
+						"path": "1-ssa/3-undead/hex"
+					}
+				}
+			},
+			"earth": {
+				"type": "folder",
+				"name": "Earth",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"bash-legendary": {
+								"type": "figure",
+								"name": "Legendary Bash",
+								"path": "1-ssa/4-earth/variants/bash-legendary"
+							}
+						}
+					},
+					"bash": {
+						"type": "figure",
+						"name": "Bash",
+						"path": "1-ssa/4-earth/bash"
+					},
+					"dino_rang": {
+						"type": "figure",
+						"name": "Dino-Rang",
+						"path": "1-ssa/4-earth/dino_rang"
+					},
+					"prism_break": {
+						"type": "figure",
+						"name": "Prism Break",
+						"path": "1-ssa/4-earth/prism_break"
+					},
+					"terrafin": {
+						"type": "figure",
+						"name": "Terrafin",
+						"path": "1-ssa/4-earth/terrafin"
+					}
+				}
+			},
+			"fire": {
+				"type": "folder",
+				"name": "Fire",
+				"children": {
+					"eruptor": {
+						"type": "figure",
+						"name": "Eruptor",
+						"path": "1-ssa/5-fire/eruptor"
+					},
+					"flameslinger": {
+						"type": "figure",
+						"name": "Flameslinger",
+						"path": "1-ssa/5-fire/flameslinger"
+					},
+					"ignitor": {
+						"type": "figure",
+						"name": "Ignitor",
+						"path": "1-ssa/5-fire/ignitor"
+					},
+					"sunburn": {
+						"type": "figure",
+						"name": "Sunburn",
+						"path": "1-ssa/5-fire/sunburn"
+					}
+				}
+			},
+			"water": {
+				"type": "folder",
+				"name": "Water",
+				"children": {
+					"gill_grunt": {
+						"type": "figure",
+						"name": "Gill Grunt",
+						"path": "1-ssa/6-water/gill_grunt"
+					},
+					"slam_bam": {
+						"type": "figure",
+						"name": "Slam Bam",
+						"path": "1-ssa/6-water/slam_bam"
+					},
+					"wham_shell": {
+						"type": "figure",
+						"name": "Wham Shell",
+						"path": "1-ssa/6-water/wham_shell"
+					},
+					"zap": {
+						"type": "figure",
+						"name": "Zap",
+						"path": "1-ssa/6-water/zap"
+					}
+				}
+			},
+			"magic": {
+				"type": "folder",
+				"name": "Magic",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"spyro-dark": {
+								"type": "figure",
+								"name": "Dark Spyro",
+								"path": "1-ssa/7-magic/variants/spyro-dark"
+							},
+							"spyro-legendary": {
+								"type": "figure",
+								"name": "Legendary Spyro",
+								"path": "1-ssa/7-magic/variants/spyro-legendary"
+							}
+						}
+					},
+					"double_trouble": {
+						"type": "figure",
+						"name": "Double Trouble",
+						"path": "1-ssa/7-magic/double_trouble"
+					},
+					"spyro": {
+						"type": "figure",
+						"name": "Spyro",
+						"path": "1-ssa/7-magic/spyro"
+					},
+					"voodood": {
+						"type": "figure",
+						"name": "Voodood",
+						"path": "1-ssa/7-magic/voodood"
+					},
+					"wrecking_ball": {
+						"type": "figure",
+						"name": "Wrecking Ball",
+						"path": "1-ssa/7-magic/wrecking_ball"
+					}
+				}
+			},
+			"tech": {
+				"type": "folder",
+				"name": "Tech",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"trigger_happy-legendary": {
+								"type": "figure",
+								"name": "Legendary Trigger Happy",
+								"path": "1-ssa/8-tech/variants/trigger_happy-legendary"
+							}
+						}
+					},
+					"boomer": {
+						"type": "figure",
+						"name": "Boomer",
+						"path": "1-ssa/8-tech/boomer"
+					},
+					"drill_sergeant": {
+						"type": "figure",
+						"name": "Drill Sergeant",
+						"path": "1-ssa/8-tech/drill_sergeant"
+					},
+					"drobot": {
+						"type": "figure",
+						"name": "Drobot",
+						"path": "1-ssa/8-tech/drobot"
+					},
+					"trigger_happy": {
+						"type": "figure",
+						"name": "Trigger Happy",
+						"path": "1-ssa/8-tech/trigger_happy"
+					}
+				}
+			},
+			"_sep": {
+				"type": "sep"
+			},
+
+			"sidekicks": {
+				"type": "folder",
+				"name": "Sidekicks",
+				"children": {
+					"whisper_elf-sidekick": {
+						"type": "figure",
+						"name": "Sidekick Whisper Elf",
+						"path": "1-ssa/sidekicks/2-whisper_elf-sidekick"
+					},
+					"terrabite-sidekick": {
+						"type": "figure",
+						"name": "Sidekick Terrabite",
+						"path": "1-ssa/sidekicks/4-terrabite-sidekick"
+					},
+					"gill_runt-sidekick": {
+						"type": "figure",
+						"name": "Sidekick Gill Runt",
+						"path": "1-ssa/sidekicks/6-gill_runt-sidekick"
+					},
+					"trigger_snappy-sidekick": {
+						"type": "figure",
+						"name": "Sidekick Trigger Snappy",
+						"path": "1-ssa/sidekicks/8-trigger_snappy-sidekick"
+					}
+				}
+			},
+			"_sep1": {
+				"type": "sep"
+			},
+
+			"items": {
+				"type": "folder",
+				"name": "Magic Items",
+				"children": {
+					"anvil_rain": {
+						"type": "item",
+						"name": "Anvil Rain",
+						"path": "1-ssa/items/anvil_rain"
+					},
+					"ghost_pirate_swords": {
+						"type": "item",
+						"name": "Ghost Pirate Swords",
+						"path": "1-ssa/items/ghost_pirate_swords"
+					},
+					"healing_elixir": {
+						"type": "item",
+						"name": "Healing Elixir",
+						"path": "1-ssa/items/healing_elixir"
+					},
+					"hidden_treasure": {
+						"type": "item",
+						"name": "Hidden Treasure",
+						"path": "1-ssa/items/hidden_treasure"
+					},
+					"sky_iron_shield": {
+						"type": "item",
+						"name": "Sky-Iron Shield",
+						"path": "1-ssa/items/sky_iron_shield"
+					},
+					"sparx_the_dragonfly": {
+						"type": "item",
+						"name": "Sparx the Dragonfly",
+						"path": "1-ssa/items/sparx_the_dragonfly"
+					},
+					"time_twister_hourglass": {
+						"type": "item",
+						"name": "Time Twister Hourglass",
+						"path": "1-ssa/items/time_twister_hourglass"
+					},
+					"volcanic_vault": {
+						"type": "item",
+						"name": "Volcanic Vault",
+						"path": "1-ssa/items/volcanic_vault"
+					},
+					"winged_boots": {
+						"type": "item",
+						"name": "Winged Boots",
+						"path": "1-ssa/items/winged_boots"
+					}
+				}
+			},
+			"packs": {
+				"type": "folder",
+				"name": "Adventure Packs",
+				"children": {
+					"empire_of_ice": {
+						"type": "item",
+						"name": "Empire of Ice",
+						"path": "1-ssa/packs/1-empire_of_ice"
+					},
+					"pirate_seas": {
+						"type": "item",
+						"name": "Pirate Seas",
+						"path": "1-ssa/packs/2-pirate_seas"
+					},
+					"darklight_crypt": {
+						"type": "item",
+						"name": "Darklight Crypt",
+						"path": "1-ssa/packs/3-darklight_crypt"
+					},
+					"dragons_peak": {
+						"type": "item",
+						"name": "Dragon's Peak",
+						"path": "1-ssa/packs/4-dragons_peak"
+					}
+				}
+			}
+		}
+	},
+	"sg": {
+		"type": "folder",
+		"name": "Giants",
+		"children": {
+			"air": {
+				"type": "folder",
+				"name": "Air",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"jet_vac-legendary": {
+								"type": "figure",
+								"name": "Legendary Jet-Vac",
+								"path": "2-sg/1-air/variants/2-jet_vac-legendary"
+							},
+							"whirlwind-polar": {
+								"type": "figure",
+								"name": "Polar Whirlwind",
+								"path": "2-sg/1-air/variants/whirlwind-polar"
+							}
+						}
+					},
+					"swarm": {
+						"type": "figure",
+						"name": "Swarm",
+						"path": "2-sg/1-air/1-swarm"
+					},
+					"jet_vac": {
+						"type": "figure",
+						"name": "Jet-Vac",
+						"path": "2-sg/1-air/2-jet_vac"
+					},
+					"jet_vac-lightcore": {
+						"type": "figure",
+						"name": "LightCore Jet-Vac",
+						"path": "2-sg/1-air/3-jet_vac-lightcore"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"lightning_rod-s2": {
+						"type": "figure",
+						"name": "Series 2 Lightning Rod",
+						"path": "2-sg/1-air/lightning_rod-s2"
+					},
+					"sonic_boom-s2": {
+						"type": "figure",
+						"name": "Series 2 Sonic Boom",
+						"path": "2-sg/1-air/sonic_boom-s2"
+					},
+					"whirlwind-s2": {
+						"type": "figure",
+						"name": "Series 2 Whirlwind",
+						"path": "2-sg/1-air/whirlwind-s2"
+					}
+				}
+			},
+			"life": {
+				"type": "folder",
+				"name": "Life",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"tree_rex-gnarly": {
+								"type": "figure",
+								"name": "Gnarly Tree Rex",
+								"path": "2-sg/2-life/variants/1-tree_rex-gnarly"
+							},
+							"stealth_elf-s2_legendary": {
+								"type": "figure",
+								"name": "Legendary Stealth Elf",
+								"path": "2-sg/2-life/variants/stealth_elf-s2_legendary"
+							}
+						}
+					},
+					"tree_rex": {
+						"type": "figure",
+						"name": "Tree Rex",
+						"path": "2-sg/2-life/1-tree_rex"
+					},
+					"shroomboom": {
+						"type": "figure",
+						"name": "Shroomboom",
+						"path": "2-sg/2-life/2-shroomboom"
+					},
+					"shroomboom-lightcore": {
+						"type": "figure",
+						"name": "LightCore Shroomboom",
+						"path": "2-sg/2-life/3-shroomboom-lightcore"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"stealth_elf-s2": {
+						"type": "figure",
+						"name": "Series 2 Stealth Elf",
+						"path": "2-sg/2-life/stealth_elf-s2"
+					},
+					"stump_smash-s2": {
+						"type": "figure",
+						"name": "Series 2 Stump Smash",
+						"path": "2-sg/2-life/stump_smash-s2"
+					},
+					"zook-s2": {
+						"type": "figure",
+						"name": "Series 2 Zook",
+						"path": "2-sg/2-life/zook-s2"
+					}
+				}
+			},
+			"undead": {
+				"type": "folder",
+				"name": "Undead",
+				"children": {
+					"eye_brawl": {
+						"type": "figure",
+						"name": "Eye-Brawl",
+						"path": "2-sg/3-undead/1-eye_brawl"
+					},
+					"fright_rider": {
+						"type": "figure",
+						"name": "Fright Rider",
+						"path": "2-sg/3-undead/2-fright_rider"
+					},
+					"hex-lightcore": {
+						"type": "figure",
+						"name": "LightCore Hex",
+						"path": "2-sg/3-undead/3-hex-lightcore"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"chop_chop-s2": {
+						"type": "figure",
+						"name": "Series 2 Chop Chop",
+						"path": "2-sg/3-undead/chop_chop-s2"
+					},
+					"cynder-s2": {
+						"type": "figure",
+						"name": "Series 2 Cynder",
+						"path": "2-sg/3-undead/cynder-s2"
+					},
+					"hex-s2": {
+						"type": "figure",
+						"name": "Series 2 Hex",
+						"path": "2-sg/3-undead/hex-s2"
+					}
+				}
+			},
+			"earth": {
+				"type": "folder",
+				"name": "Earth",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"crusher-granite": {
+								"type": "figure",
+								"name": "Granite Crusher",
+								"path": "2-sg/4-earth/variants/1-crusher-granite"
+							},
+							"flashwing-jade": {
+								"type": "figure",
+								"name": "Jade Flashwing",
+								"path": "2-sg/4-earth/variants/2-flashwing-jade"
+							}
+						}
+					},
+					"crusher": {
+						"type": "figure",
+						"name": "Crusher",
+						"path": "2-sg/4-earth/1-crusher"
+					},
+					"flashwing": {
+						"type": "figure",
+						"name": "Flashwing",
+						"path": "2-sg/4-earth/2-flashwing"
+					},
+					"prism_break-lightcore": {
+						"type": "figure",
+						"name": "LightCore Prism Break",
+						"path": "2-sg/4-earth/3-prism_break-lightcore"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"bash-s2": {
+						"type": "figure",
+						"name": "Series 2 Bash",
+						"path": "2-sg/4-earth/bash-s2"
+					},
+					"prism_break-s2": {
+						"type": "figure",
+						"name": "Series 2 Prism Break",
+						"path": "2-sg/4-earth/prism_break-s2"
+					},
+					"terrafin-s2": {
+						"type": "figure",
+						"name": "Series 2 Terrafin",
+						"path": "2-sg/4-earth/terrafin-s2"
+					}
+				}
+			},
+			"fire": {
+				"type": "folder",
+				"name": "Fire",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"hot_dog-molten": {
+								"type": "figure",
+								"name": "Molten Hot Dog",
+								"path": "2-sg/5-fire/variants/2-hot_dog-molten"
+							},
+							"ignitor-legendary": {
+								"type": "figure",
+								"name": "Legendary Ignitor",
+								"path": "2-sg/5-fire/variants/ignitor-s2_legendary"
+							}
+						}
+					},
+					"hot_head": {
+						"type": "figure",
+						"name": "Hot Head",
+						"path": "2-sg/5-fire/1-hot_head"
+					},
+					"hot_dog": {
+						"type": "figure",
+						"name": "Hot Dog",
+						"path": "2-sg/5-fire/2-hot_dog"
+					},
+					"eruptor-lightcore": {
+						"type": "figure",
+						"name": "LightCore Eruptor",
+						"path": "2-sg/5-fire/3-eruptor-lightcore"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"eruptor-s2": {
+						"type": "figure",
+						"name": "Series 2 Eruptor",
+						"path": "2-sg/5-fire/eruptor-s2"
+					},
+					"flameslinger-s2": {
+						"type": "figure",
+						"name": "Series 2 Flameslinger",
+						"path": "2-sg/5-fire/flameslinger-s2"
+					},
+					"ignitor-s2": {
+						"type": "figure",
+						"name": "Series 2 Ignitor",
+						"path": "2-sg/5-fire/ignitor-s2"
+					}
+				}
+			},
+			"water": {
+				"type": "folder",
+				"name": "Water",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"chill-legendary_lightcore": {
+								"type": "figure",
+								"name": "Legendary LightCore Chill",
+								"path": "2-sg/6-water/variants/3-chill-legendary_lightcore"
+							},
+							"slam_bam-legendary": {
+								"type": "figure",
+								"name": "Legendary Slam Bam",
+								"path": "2-sg/6-water/variants/slam_bam-legendary"
+							}
+						}
+					},
+					"thumpback": {
+						"type": "figure",
+						"name": "Thumpback",
+						"path": "2-sg/6-water/1-thumpback"
+					},
+					"chill": {
+						"type": "figure",
+						"name": "Chill",
+						"path": "2-sg/6-water/2-chill"
+					},
+					"chill-lightcore": {
+						"type": "figure",
+						"name": "LightCore Chill",
+						"path": "2-sg/6-water/3-chill-lightcore"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"gill_grunt-s2": {
+						"type": "figure",
+						"name": "Series 2 Gill Grunt",
+						"path": "2-sg/6-water/gill_grunt-s2"
+					},
+					"slam_bam-s2": {
+						"type": "figure",
+						"name": "Series 2 Slam Bam",
+						"path": "2-sg/6-water/slam_bam-s2"
+					},
+					"zap-s2": {
+						"type": "figure",
+						"name": "Series 2 Zap",
+						"path": "2-sg/6-water/zap-s2"
+					}
+				}
+			},
+			"magic": {
+				"type": "folder",
+				"name": "Magic",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"ninjini-scarlet": {
+								"type": "figure",
+								"name": "Scarlet Ninjini",
+								"path": "2-sg/7-magic/variants/1-ninjini-scarlet"
+							},
+							"pop_fizz-punch": {
+								"type": "figure",
+								"name": "Punch Pop Fizz",
+								"path": "2-sg/7-magic/variants/2-pop_fizz-punch"
+							},
+							"double_trouble-royal": {
+								"type": "figure",
+								"name": "Royal Double Trouble",
+								"path": "2-sg/7-magic/variants/double_trouble-royal"
+							}
+						}
+					},
+					"ninjini": {
+						"type": "figure",
+						"name": "Ninjini",
+						"path": "2-sg/7-magic/1-ninjini"
+					},
+					"pop_fizz": {
+						"type": "figure",
+						"name": "Pop Fizz",
+						"path": "2-sg/7-magic/2-pop_fizz"
+					},
+					"pop_fizz-lightcore": {
+						"type": "figure",
+						"name": "LightCore Pop Fizz",
+						"path": "2-sg/7-magic/3-pop_fizz-lightcore"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"double_trouble-s2": {
+						"type": "figure",
+						"name": "Series 2 Double Trouble",
+						"path": "2-sg/7-magic/double_trouble-s2"
+					},
+					"spyro-s2": {
+						"type": "figure",
+						"name": "Series 2 Spyro",
+						"path": "2-sg/7-magic/spyro-s2"
+					},
+					"wrecking_ball-s2": {
+						"type": "figure",
+						"name": "Series 2 Wrecking Ball",
+						"path": "2-sg/7-magic/wrecking_ball-s2"
+					}
+				}
+			},
+			"tech": {
+				"type": "folder",
+				"name": "Tech",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"bouncer-legendary": {
+								"type": "figure",
+								"name": "Legendary Bouncer",
+								"path": "2-sg/8-tech/variants/1-bouncer-legendary"
+							}
+						}
+					},
+					"bouncer": {
+						"type": "figure",
+						"name": "Bouncer",
+						"path": "2-sg/8-tech/1-bouncer"
+					},
+					"sprocket": {
+						"type": "figure",
+						"name": "Sprocket",
+						"path": "2-sg/8-tech/2-sprocket"
+					},
+					"drobot-lightcore": {
+						"type": "figure",
+						"name": "LightCore Drobot",
+						"path": "2-sg/8-tech/3-drobot-lightcore"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"drill_sergeant-s2": {
+						"type": "figure",
+						"name": "Series 2 Drill Sergeant",
+						"path": "2-sg/8-tech/drill_sergeant-s2"
+					},
+					"drobot-s2": {
+						"type": "figure",
+						"name": "Series 2 Drobot",
+						"path": "2-sg/8-tech/drobot-s2"
+					},
+					"trigger_happy-s2": {
+						"type": "figure",
+						"name": "Series 2 Trigger Happy",
+						"path": "2-sg/8-tech/trigger_happy-s2"
+					}
+				}
+			},
+			"_sep": {
+				"type": "sep"
+			},
+
+			"sidekicks": {
+				"type": "folder",
+				"name": "Sidekicks",
+				"children": {
+					"barkley": {
+						"type": "figure",
+						"name": "Sidekick Barkley",
+						"path": "2-sg/sidekicks/2-barkley-sidekick"
+					},
+					"eye_small": {
+						"type": "figure",
+						"name": "Sidekick Eye-Small",
+						"path": "2-sg/sidekicks/3-eye_small-sidekick"
+					},
+					"thumpling": {
+						"type": "figure",
+						"name": "Sidekick Thumpling",
+						"path": "2-sg/sidekicks/6-thumpling-sidekick"
+					},
+					"mini_jini": {
+						"type": "figure",
+						"name": "Sidekick Mini-Jini",
+						"path": "2-sg/sidekicks/7-mini_jini-sidekick"
+					}
+				}
+			},
+			"_sep1": {
+				"type": "sep"
+			},
+
+			"items": {
+				"type": "folder",
+				"name": "Magic Items",
+				"children": {
+					"dragonfire_cannon": {
+						"type": "item",
+						"name": "Dragonfire Cannon",
+						"path": "2-sg/items/dragonfire_cannon"
+					},
+					"dragonfire_cannon-golden": {
+						"type": "item",
+						"name": "Golden Dragonfire Cannon",
+						"path": "2-sg/items/dragonfire_cannon-golden"
+					},
+					"treasure_chest-platinum": {
+						"type": "item",
+						"name": "Platinum Treasure Chest",
+						"path": "2-sg/items/treasure_chest-platinum"
+					},
+					"scorpion_striker": {
+						"type": "item",
+						"name": "Scorpion Striker",
+						"path": "2-sg/items/scorpion_striker"
+					}
+				}
+			},
+			"packs": {
+				"type": "folder",
+				"name": "Adventure Packs",
+				"children": {
+					"empire_of_ice": {
+						"type": "item",
+						"name": "Empire of Ice",
+						"path": "1-ssa/packs/1-empire_of_ice"
+					},
+					"pirate_seas": {
+						"type": "item",
+						"name": "Pirate Seas",
+						"path": "1-ssa/packs/2-pirate_seas"
+					},
+					"darklight_crypt": {
+						"type": "item",
+						"name": "Darklight Crypt",
+						"path": "1-ssa/packs/3-darklight_crypt"
+					},
+					"dragons_peak": {
+						"type": "item",
+						"name": "Dragon's Peak",
+						"path": "1-ssa/packs/4-dragons_peak"
+					}
+				}
+			}
+		}
+	},
+	"ssf": {
+		"type": "folder",
+		"name": "Swap Force",
+		"children": {
+			"air": {
+				"type": "folder",
+				"name": "Air",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"free_ranger-legendary": {
+								"type": "swapper",
+								"name": "Legendary Free Ranger",
+								"path_top":    "3-ssf/1-air/variants/swap_force/free_ranger-legendary-TOP",
+								"path_bottom": "3-ssf/1-air/variants/swap_force/free_ranger-legendary-BTM"
+							}
+						}
+					},
+					"free_ranger": {
+						"type": "swapper",
+						"name": "Free Ranger",
+						"path_top":    "3-ssf/1-air/swap_force/free_ranger-TOP",
+						"path_bottom": "3-ssf/1-air/swap_force/free_ranger-BTM"
+					},
+					"boom_jet": {
+						"type": "swapper",
+						"name": "Boom Jet",
+						"path_top":    "3-ssf/1-air/swap_force/boom_jet-TOP",
+						"path_bottom": "3-ssf/1-air/swap_force/boom_jet-BTM"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"pop_thorn": {
+						"type": "figure",
+						"name": "Pop Thorn",
+						"path": "3-ssf/1-air/2-pop_thorn"
+					},
+					"scratch": {
+						"type": "figure",
+						"name": "Scratch",
+						"path": "3-ssf/1-air/2-scratch"
+					},
+					"warnado-lightcore": {
+						"type": "figure",
+						"name": "LightCore Warnado",
+						"path": "3-ssf/1-air/3-warnado-lightcore"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"jet_vac-s2": {
+						"type": "figure",
+						"name": "Turbo Jet-Vac",
+						"path": "3-ssf/1-air/jet_vac-s2"
+					},
+					"whirlwind-s3": {
+						"type": "figure",
+						"name": "Horn Blast Whirlwind",
+						"path": "3-ssf/1-air/whirlwind-s3"
+					}
+				}
+			},
+			"life": {
+				"type": "folder",
+				"name": "Life",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"bumble_blast-jolly": {
+								"type": "figure",
+								"name": "Jolly Bumble Blast",
+								"path": "3-ssf/2-life/variants/2-bumble_blast-jolly"
+							},
+							"zoo_lou-legendary": {
+								"type": "figure",
+								"name": "Legendary Zoo Lou",
+								"path": "3-ssf/2-life/variants/2-zoo_lou-legendary"
+							},
+							"stealth_elf-s3_dark": {
+								"type": "figure",
+								"name": "Dark Ninja Stealth Elf",
+								"path": "3-ssf/2-life/variants/stealth_elf-s3_dark"
+							}
+						}
+					},
+					"grilla_drilla": {
+						"type": "swapper",
+						"name": "Grilla Drilla",
+						"path_top":    "3-ssf/2-life/swap_force/grilla_drilla-TOP",
+						"path_bottom": "3-ssf/2-life/swap_force/grilla_drilla-BTM"
+					},
+					"stink_bomb": {
+						"type": "swapper",
+						"name": "Grilla Drilla",
+						"path_top":    "3-ssf/2-life/swap_force/stink_bomb-TOP",
+						"path_bottom": "3-ssf/2-life/swap_force/stink_bomb-BTM"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"bumble_blast": {
+						"type": "figure",
+						"name": "Bumble Blast",
+						"path": "3-ssf/2-life/2-bumble_blast"
+					},
+					"zoo_lou": {
+						"type": "figure",
+						"name": "Zoo Lou",
+						"path": "3-ssf/2-life/2-zoo_lou"
+					},
+					"bumble_blast-lightcore": {
+						"type": "figure",
+						"name": "LightCore Bumble Blast",
+						"path": "3-ssf/2-life/3-bumble_blast-lightcore"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"camo-s2": {
+						"type": "figure",
+						"name": "Thorn Horn Camo",
+						"path": "3-ssf/2-life/camo-s2"
+					},
+					"stealth_elf-s3": {
+						"type": "figure",
+						"name": "Ninja Stealth Elf",
+						"path": "3-ssf/2-life/stealth_elf-s3"
+					}
+				}
+			},
+			"undead": {
+				"type": "folder",
+				"name": "Undead",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"night_shift-legendary": {
+								"type": "swapper",
+								"name": "Legendary Night Shift",
+								"path_top": "3-ssf/3-undead/variants/swap_force/night_shift-legendary-TOP",
+								"path_bottom": "3-ssf/3-undead/variants/swap_force/night_shift-legendary-BTM"
+							},
+							"rattle_shake-quickdraw": {
+								"type": "swapper",
+								"name": "Quickdraw Rattle Shake",
+								"path_top": "3-ssf/3-undead/variants/swap_force/rattle_shake-quickdraw-TOP",
+								"path_bottom": "3-ssf/3-undead/variants/swap_force/rattle_shake-quickdraw-BTM"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"grim_creeper-legendary_lightcore": {
+								"type": "figure",
+								"name": "Legendary LightCore Grim Creeper",
+								"path": "3-ssf/3-undead/variants/3-grim_creeper-legendary_lightcore"
+							}
+						}
+					},
+					"night_shift": {
+						"type": "swapper",
+						"name": "Night Shift",
+						"path_top":    "3-ssf/3-undead/swap_force/night_shift-TOP",
+						"path_bottom": "3-ssf/3-undead/swap_force/night_shift-BTM"
+					},
+					"rattle_shake": {
+						"type": "swapper",
+						"name": "Rattle Shake",
+						"path_top":    "3-ssf/3-undead/swap_force/rattle_shake-TOP",
+						"path_bottom": "3-ssf/3-undead/swap_force/rattle_shake-BTM"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"grim_creeper": {
+						"type": "figure",
+						"name": "Grim Creeper",
+						"path": "3-ssf/3-undead/2-grim_creeper"
+					},
+					"roller_brawl": {
+						"type": "figure",
+						"name": "Roller Brawl",
+						"path": "3-ssf/3-undead/2-grim_creeper"
+					},
+					"grim_creeper-lightcore": {
+						"type": "figure",
+						"name": "LightCore Grim Creeper",
+						"path": "3-ssf/3-undead/3-grim_creeper-lightcore"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"chop_chop-s3": {
+						"type": "figure",
+						"name": "Twin Blade Chop Chop",
+						"path": "3-ssf/3-undead/chop_chop-s3"
+					},
+					"cynder-s3": {
+						"type": "figure",
+						"name": "Phantom Cynder",
+						"path": "3-ssf/3-undead/cynder-s3"
+					}
+				}
+			},
+			"earth": {
+				"type": "folder",
+				"name": "Earth",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"slobber_tooth-dark": {
+								"type": "figure",
+								"name": "Dark Slobber Tooth",
+								"path": "3-ssf/4-earth/variants/2-slobber_tooth-dark"
+							}
+						}
+					},
+					"doom_stone": {
+						"type": "swapper",
+						"name": "Doom Stone",
+						"path_top":    "3-ssf/4-earth/swap_force/doom_stone-TOP",
+						"path_bottom": "3-ssf/4-earth/swap_force/doom_stone-BTM"
+					},
+					"rubble_rouser": {
+						"type": "swapper",
+						"name": "Rubble Rouser",
+						"path_top":    "3-ssf/4-earth/swap_force/rubble_rouser-TOP",
+						"path_bottom": "3-ssf/4-earth/swap_force/rubble_rouser-BTM"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"scorp": {
+						"type": "figure",
+						"name": "Scorp",
+						"path": "3-ssf/4-earth/2-scorp"
+					},
+					"slobber_tooth": {
+						"type": "figure",
+						"name": "Slobber Tooth",
+						"path": "3-ssf/4-earth/2-slobber_tooth"
+					},
+					"flashwing-lightcore": {
+						"type": "figure",
+						"name": "LightCore Flashwing",
+						"path": "3-ssf/4-earth/3-flashwing-lightcore"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"prism_break-s3": {
+						"type": "figure",
+						"name": "Hyper Beam Prism Break",
+						"path": "3-ssf/4-earth/prism_break-s3"
+					},
+					"terrafin-s3": {
+						"type": "figure",
+						"name": "Knockout Terrafin",
+						"path": "3-ssf/4-earth/terrafin-s3"
+					}
+				}
+			},
+			"fire": {
+				"type": "folder",
+				"name": "Fire",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"blast_zone-dark": {
+								"type": "swapper",
+								"name": "Dark Blast Zone",
+								"path_top":    "3-ssf/5-fire/variants/swap_force/blast_zone-dark-TOP",
+								"path_bottom": "3-ssf/5-fire/variants/swap_force/blast_zone-dark-BTM"
+							},
+							"fire_kraken-jade": {
+								"type": "swapper",
+								"name": "Jade Fire Kraken",
+								"path_top":    "3-ssf/5-fire/variants/swap_force/fire_kraken-jade-TOP",
+								"path_bottom": "3-ssf/5-fire/variants/swap_force/fire_kraken-jade-BTM"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"eruptor-s3_volcanic": {
+								"type": "figure",
+								"name": "Volcanic Lava Barf Eruptor",
+								"path": "3-ssf/5-fire/variants/eruptor-s3_volcanic"
+							}
+						}
+					},
+					"blast_zone-dark": {
+						"type": "swapper",
+						"name": "Blast Zone",
+						"path_top":    "3-ssf/5-fire/swap_force/blast_zone-TOP",
+						"path_bottom": "3-ssf/5-fire/swap_force/blast_zone-BTM"
+					},
+					"fire_kraken-jade": {
+						"type": "swapper",
+						"name": "Fire Kraken",
+						"path_top":    "3-ssf/5-fire/swap_force/fire_kraken-TOP",
+						"path_bottom": "3-ssf/5-fire/swap_force/fire_kraken-BTM"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"fryno": {
+						"type": "figure",
+						"name": "Fryno",
+						"path": "3-ssf/5-fire/2-fryno"
+					},
+					"smolderdash": {
+						"type": "figure",
+						"name": "Smolderdash",
+						"path": "3-ssf/5-fire/2-smolderdash"
+					},
+					"smolderdash-lightcore": {
+						"type": "figure",
+						"name": "LightCore Smolderdash",
+						"path": "3-ssf/5-fire/3-smolderdash-lightcore"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"eruptor-s3": {
+						"type": "figure",
+						"name": "Lava Barf Eruptor",
+						"path": "3-ssf/5-fire/eruptor-s3"
+					},
+					"hot_dog-s2": {
+						"type": "figure",
+						"name": "Fire Bone Hot Dog",
+						"path": "3-ssf/5-fire/hot_dog-s2"
+					}
+				}
+			},
+			"water": {
+				"type": "folder",
+				"name": "Water",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"freeze_blade-nitro": {
+								"type": "swapper",
+								"name": "Nitro Freeze Blade",
+								"path_top": "3-ssf/6-water/variants/swap_force/freeze_blade-nitro-TOP",
+								"path_bottom": "3-ssf/6-water/variants/swap_force/freeze_blade-nitro-BTM"
+							},
+							"wash_buckler-dark": {
+								"type": "swapper",
+								"name": "Dark Wash Buckler",
+								"path_top": "3-ssf/6-water/variants/swap_force/wash_buckler-dark-TOP",
+								"path_bottom": "3-ssf/6-water/variants/swap_force/wash_buckler-dark-BTM"
+							}
+						}
+					},
+					"freeze_blade": {
+						"type": "swapper",
+						"name": "Freeze Blade",
+						"path_top": "3-ssf/6-water/swap_force/freeze_blade-TOP",
+						"path_bottom": "3-ssf/6-water/swap_force/freeze_blade-BTM"
+					},
+					"wash_buckler": {
+						"type": "swapper",
+						"name": "Wash Buckler",
+						"path_top": "3-ssf/6-water/swap_force/wash_buckler-TOP",
+						"path_bottom": "3-ssf/6-water/swap_force/wash_buckler-BTM"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"punk_shock": {
+						"type": "figure",
+						"name": "Punk Shock",
+						"path": "3-ssf/6-water/2-punk_shock"
+					},
+					"rip_tide": {
+						"type": "figure",
+						"name": "Rip Tide",
+						"path": "3-ssf/6-water/2-rip_tide"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"chill-s2": {
+						"type": "figure",
+						"name": "Blizzard Chill",
+						"path": "3-ssf/6-water/chill-s2"
+					},
+					"gill_grunt-s3": {
+						"type": "figure",
+						"name": "Anchors Away Gill Grunt",
+						"path": "3-ssf/6-water/gill_grunt-s3"
+					}
+				}
+			},
+			"magic": {
+				"type": "folder",
+				"name": "Magic",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"hoot_loop-enchanted": {
+								"type": "swapper",
+								"name": "Enchanted Hoot Loop",
+								"path_top":    "3-ssf/7-magic/variants/swap_force/hoot_loop-enchanted-TOP",
+								"path_bottom": "3-ssf/7-magic/variants/swap_force/hoot_loop-enchanted-BTM"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"star_strike-enchanted_lightcore": {
+								"type": "figure",
+								"name": "Enchanted LightCore Star Strike",
+								"path": "3-ssf/7-magic/variants/3-star_strike-enchanted_lightcore"
+							},
+							"spyro-s3_dark": {
+								"type": "figure",
+								"name": "Dark Mega Ram Spyro",
+								"path": "3-ssf/7-magic/variants/spyro-s3_dark"
+							}
+						}
+					},
+					"hoot_loop": {
+						"type": "swapper",
+						"name": "Hoot Loop",
+						"path_top":    "3-ssf/7-magic/swap_force/hoot_loop-TOP",
+						"path_bottom": "3-ssf/7-magic/swap_force/hoot_loop-BTM"
+					},
+					"trap_shadow": {
+						"type": "swapper",
+						"name": "Trap Shadow",
+						"path_top":    "3-ssf/7-magic/swap_force/trap_shadow-TOP",
+						"path_bottom": "3-ssf/7-magic/swap_force/trap_shadow-BTM"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"dune_bug": {
+						"type": "figure",
+						"name": "Dune Bug",
+						"path": "3-ssf/7-magic/2-dune_bug"
+					},
+					"star_strike": {
+						"type": "figure",
+						"name": "Star Strike",
+						"path": "3-ssf/7-magic/2-star_strike"
+					},
+					"star_strike-lightcore": {
+						"type": "figure",
+						"name": "LightCore Star Strike",
+						"path": "3-ssf/7-magic/3-star_strike-lightcore"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"pop_fizz-s2": {
+						"type": "figure",
+						"name": "Super Gulp Pop Fizz",
+						"path": "3-ssf/7-magic/pop_fizz-s2"
+					},
+					"spyro-s3": {
+						"type": "figure",
+						"name": "Mega Ram Spyro",
+						"path": "3-ssf/7-magic/spyro-s3"
+					}
+				}
+			},
+			"tech": {
+				"type": "folder",
+				"name": "Tech",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"magna_charge-nitro": {
+								"type": "swapper",
+								"name": "Nitro Magna Charge",
+								"path_top":    "3-ssf/8-tech/variants/swap_force/magna_charge-nitro-TOP",
+								"path_bottom": "3-ssf/8-tech/variants/swap_force/magna_charge-nitro-BTM"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"countdown-kickoff": {
+								"type": "figure",
+								"name": "Kickoff Countdown",
+								"path": "3-ssf/8-tech/variants/2-countdown-kickoff"
+							},
+							"trigger_happy-s3_springtime": {
+								"type": "figure",
+								"name": "Springtime Big Bang Trigger Happy",
+								"path": "3-ssf/8-tech/variants/trigger_happy-s3_springtime"
+							},
+							"_sep1": {
+								"type": "sep"
+							},
+
+							"wind_up-gear_head": {
+								"type": "figure",
+								"name": "Gear Head VVind-Up",
+								"path": "3-ssf/8-tech/variants/wind_up-gear_head"
+							}
+						}
+					},
+					"magna_charge": {
+						"type": "swapper",
+						"name": "Magna Charge",
+						"path_top":    "3-ssf/8-tech/swap_force/magna_charge-TOP",
+						"path_bottom": "3-ssf/8-tech/swap_force/magna_charge-BTM"
+					},
+					"spy_rise": {
+						"type": "swapper",
+						"name": "Spy Rise",
+						"path_top":    "3-ssf/8-tech/swap_force/spy_rise-TOP",
+						"path_bottom": "3-ssf/8-tech/swap_force/spy_rise-BTM"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"countdown": {
+						"type": "figure",
+						"name": "Countdown",
+						"path": "3-ssf/8-tech/2-countdown"
+					},
+					"wind_up": {
+						"type": "figure",
+						"name": "Wind-Up",
+						"path": "3-ssf/8-tech/2-wind_up"
+					},
+					"countdown-lightcore": {
+						"type": "figure",
+						"name": "LightCore Countdown",
+						"path": "3-ssf/8-tech/3-countdown-lightcore"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"sprocket-s2": {
+						"type": "figure",
+						"name": "Heavy Duty Sprocket",
+						"path": "3-ssf/8-tech/sprocket-s2"
+					}
+				}
+			},
+			"_sep": {
+				"type": "sep"
+			},
+
+			"items": {
+				"type": "folder",
+				"name": "Magic Items",
+				"children": {
+					"arkeyan_crossbow": {
+						"type": "item",
+						"name": "Arkeyan Crossbow",
+						"path": "3-ssf/items/arkeyan_crossbow"
+					},
+					"battle_hammer": {
+						"type": "item",
+						"name": "Battle Hammer",
+						"path": "3-ssf/items/battle_hammer"
+					},
+					"fiery_forge": {
+						"type": "item",
+						"name": "Fiery Forge",
+						"path": "3-ssf/items/fiery_forge"
+					},
+					"groove_machine": {
+						"type": "item",
+						"name": "Groove Machine",
+						"path": "3-ssf/items/groove_machine"
+					},
+					"platinum_sheep": {
+						"type": "item",
+						"name": "Platinum Sheep",
+						"path": "3-ssf/items/platinum_sheep"
+					},
+					"sky_diamond": {
+						"type": "item",
+						"name": "Sky Diamond",
+						"path": "3-ssf/items/sky_diamond"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"ufo_hat": {
+						"type": "item",
+						"name": "UFO Hat",
+						"path": "3-ssf/items/ufo_hat"
+					}
+				}
+			},
+			"packs": {
+				"type": "folder",
+				"name": "Adventure Packs",
+				"children": {
+					"tower_of_time": {
+						"type": "item",
+						"name": "Tower of Time",
+						"path": "3-ssf/packs/1-tower_of_time"
+					},
+					"sheep_wreck_island": {
+						"type": "item",
+						"name": "Sheep Wreck Island",
+						"path": "3-ssf/packs/2-sheep_wreck_island"
+					}
+				}
+			}
+		}
+	},
+	"stt": {
+		"type": "folder",
+		"name": "Trap Team",
+		"children": {
+			"light": {
+				"type": "folder",
+				"name": "Light",
+				"children": {
+					"knight_light": {
+						"type": "figure",
+						"name": "Knight Light",
+						"path": "4-stt/9-light/1-knight_light"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"spotlight": {
+						"type": "figure",
+						"name": "Spotlight",
+						"path": "4-stt/9-light/2-spotlight"
+					}
+				}
+			},
+			"air": {
+				"type": "folder",
+				"name": "Air",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"blades-legendary": {
+								"type": "figure",
+								"name": "Legendary Blades",
+								"path": "4-stt/1-air/variants/2-blades-legendary"
+							}
+						}
+					},
+					"gusto": {
+						"type": "figure",
+						"name": "Gusto",
+						"path": "4-stt/1-air/1-gusto"
+					},
+					"thunderbolt": {
+						"type": "figure",
+						"name": "Thunderbolt",
+						"path": "4-stt/1-air/1-thunderbolt"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"blades": {
+						"type": "figure",
+						"name": "Blades",
+						"path": "4-stt/1-air/2-blades"
+					},
+					"fling_kong": {
+						"type": "figure",
+						"name": "Fling Kong",
+						"path": "4-stt/1-air/2-fling_kong"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"jet_vac-s3": {
+						"type": "figure",
+						"name": "Full Blast Jet-Vac",
+						"path": "4-stt/1-air/jet_vac-s3"
+					}
+				}
+			},
+			"life": {
+				"type": "folder",
+				"name": "Life",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"bushwhack-legendary": {
+								"type": "figure",
+								"name": "Legendary Bushwhack",
+								"path": "4-stt/2-life/variants/1-bushwhack-legendary"
+							},
+							"food_fight-dark": {
+								"type": "figure",
+								"name": "Dark Food Fight",
+								"path": "4-stt/2-life/variants/2-food_fight-dark"
+							}
+						}
+					},
+					"bushwhack": {
+						"type": "figure",
+						"name": "Bushwhack",
+						"path": "4-stt/2-life/1-bushwhack"
+					},
+					"tuff_luck": {
+						"type": "figure",
+						"name": "Tuff Luck",
+						"path": "4-stt/2-life/1-tuff_luck"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"food_fight": {
+						"type": "figure",
+						"name": "Food Fight",
+						"path": "4-stt/2-life/2-food_fight"
+					},
+					"high_five": {
+						"type": "figure",
+						"name": "High Five",
+						"path": "4-stt/2-life/2-high_five"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"shroomboom-s2": {
+						"type": "figure",
+						"name": "Sure Shot Shroomboom",
+						"path": "4-stt/2-life/shroomboom-s2"
+					}
+				}
+			},
+			"undead": {
+				"type": "folder",
+				"name": "Undead",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"krypt_king-nitro": {
+								"type": "figure",
+								"name": "Nitro Krypt King",
+								"path": "4-stt/3-undead/variants/1-krypt_king-nitro"
+							}
+						}
+					},
+					"krypt_king": {
+						"type": "figure",
+						"name": "Krypt King",
+						"path": "4-stt/3-undead/1-krypt_king"
+					},
+					"short_cut": {
+						"type": "figure",
+						"name": "Short Cut",
+						"path": "4-stt/3-undead/1-short_cut"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"bat_spin": {
+						"type": "figure",
+						"name": "Bat Spin",
+						"path": "4-stt/3-undead/2-bat_spin"
+					},
+					"funny_bone": {
+						"type": "figure",
+						"name": "Funny Bone",
+						"path": "4-stt/3-undead/2-funny_bone"
+					}
+				}
+			},
+			"earth": {
+				"type": "folder",
+				"name": "Earth",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"head_rush-nitro": {
+								"type": "figure",
+								"name": "Nitro Head Rush",
+								"path": "4-stt/4-earth/variants/1-head_rush-nitro"
+							}
+						}
+					},
+					"head_rush": {
+						"type": "figure",
+						"name": "Head Rush",
+						"path": "4-stt/4-earth/1-head_rush"
+					},
+					"wallop": {
+						"type": "figure",
+						"name": "Wallop",
+						"path": "4-stt/4-earth/1-wallop"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"fist_bump": {
+						"type": "figure",
+						"name": "Fist Bump",
+						"path": "4-stt/4-earth/2-fist_bump"
+					},
+					"rocky_roll": {
+						"type": "figure",
+						"name": "Rocky Roll",
+						"path": "4-stt/4-earth/2-rocky_roll"
+					}
+				}
+			},
+			"fire": {
+				"type": "folder",
+				"name": "Fire",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"wildfire-dark": {
+								"type": "figure",
+								"name": "Dark Wildfire",
+								"path": "4-stt/5-fire/variants/1-wildfire-dark"
+							}
+						}
+					},
+					"ka_boom": {
+						"type": "figure",
+						"name": "Ka-Boom",
+						"path": "4-stt/5-fire/1-ka_boom"
+					},
+					"wildfire": {
+						"type": "figure",
+						"name": "Wildfire",
+						"path": "4-stt/5-fire/1-wildfire"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"torch": {
+						"type": "figure",
+						"name": "Torch",
+						"path": "4-stt/5-fire/2-torch"
+					},
+					"trail_blazer": {
+						"type": "figure",
+						"name": "Trail Blazer",
+						"path": "4-stt/5-fire/2-trail_blazer"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"fryno-s2": {
+						"type": "figure",
+						"name": "Hog Wild Fryno",
+						"path": "4-stt/5-fire/fryno-s2"
+					}
+				}
+			},
+			"water": {
+				"type": "folder",
+				"name": "Water",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"lob_star-winterfest": {
+								"type": "figure",
+								"name": "Winterfest Lob-Star",
+								"path": "4-stt/6-water/variants/1-lob_star-winterfest"
+							},
+							"snap_shot-dark": {
+								"type": "figure",
+								"name": "Dark Snap Shot",
+								"path": "4-stt/6-water/variants/1-snap_shot-dark"
+							}
+						}
+					},
+					"lob_star": {
+						"type": "figure",
+						"name": "Lob-Star",
+						"path": "4-stt/6-water/1-lob_star"
+					},
+					"snap_shot": {
+						"type": "figure",
+						"name": "Snap Shot",
+						"path": "4-stt/6-water/1-snap_shot"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"echo": {
+						"type": "figure",
+						"name": "Echo",
+						"path": "4-stt/6-water/2-echo"
+					},
+					"flip_wreck": {
+						"type": "figure",
+						"name": "Flip Wreck",
+						"path": "4-stt/6-water/2-flip_wreck"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"gill_grunt-s4": {
+						"type": "figure",
+						"name": "Gill Grunt",
+						"path": "4-stt/6-water/gill_grunt-s4"
+					}
+				}
+			},
+			"magic": {
+				"type": "folder",
+				"name": "Magic",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"cobra_cadabra-king": {
+								"type": "figure",
+								"name": "King Cobra Cadabra",
+								"path": "4-stt/7-magic/variants/2-cobra_cadabra-king"
+							},
+							"deja_vu-legendary": {
+								"type": "figure",
+								"name": "Legendary Déjà Vu",
+								"path": "4-stt/7-magic/variants/2-deja_vu-legendary"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"pop_fizz-s3_love_potion": {
+								"type": "figure",
+								"name": "Love Potion Fizzy Frenzy Pop Fizz",
+								"path": "4-stt/7-magic/variants/pop_fizz-s3_love_potion"
+							}
+						}
+					},
+					"blastermind": {
+						"type": "figure",
+						"name": "Blastermind",
+						"path": "4-stt/7-magic/1-blastermind"
+					},
+					"enigma": {
+						"type": "figure",
+						"name": "Enigma",
+						"path": "4-stt/7-magic/1-enigma"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"cobra_cadabra": {
+						"type": "figure",
+						"name": "Cobra Cadabra",
+						"path": "4-stt/7-magic/2-cobra_cadabra"
+					},
+					"deja_vu": {
+						"type": "figure",
+						"name": "Déjà Vu",
+						"path": "4-stt/7-magic/2-deja_vu"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"pop_fizz-s3": {
+						"type": "figure",
+						"name": "Fizzy Frenzy Pop Fizz",
+						"path": "4-stt/7-magic/pop_fizz-s3"
+					}
+				}
+			},
+			"tech": {
+				"type": "folder",
+				"name": "Tech",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"jawbreaker-legendary": {
+								"type": "figure",
+								"name": "Legendary Jawbreaker",
+								"path": "4-stt/8-tech/variants/1-jawbreaker-legendary"
+							}
+						}
+					},
+					"gearshift": {
+						"type": "figure",
+						"name": "Gearshift",
+						"path": "4-stt/8-tech/1-gearshift"
+					},
+					"jawbreaker": {
+						"type": "figure",
+						"name": "Jawbreaker",
+						"path": "4-stt/8-tech/1-jawbreaker"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"chopper": {
+						"type": "figure",
+						"name": "Chopper",
+						"path": "4-stt/8-tech/2-chopper"
+					},
+					"tread_head": {
+						"type": "figure",
+						"name": "Tread Head",
+						"path": "4-stt/8-tech/2-tread_head"
+					}
+				}
+			},
+			"dark": {
+				"type": "folder",
+				"name": "Dark",
+				"children": {
+					"knight_mare": {
+						"type": "figure",
+						"name": "Knight Mare",
+						"path": "4-stt/10-dark/1-knight_mare"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"blackout": {
+						"type": "figure",
+						"name": "Blackout",
+						"path": "4-stt/10-dark/2-blackout"
+					}
+				}
+			},
+			"_sep": {
+				"type": "sep"
+			},
+
+			"eons_elite": {
+				"type": "folder",
+				"name": "Eon's Elite",
+				"children": {
+					"whirlwind-eons_elite": {
+						"type": "figure",
+						"name": "Eon's Elite Whirlwind",
+						"path": "4-stt/eons_elite/1-whirlwind-eons_elite"
+					},
+					"stealth_elf-eons_elite": {
+						"type": "figure",
+						"name": "Eon's Elite Stealth Elf",
+						"path": "4-stt/eons_elite/2-stealth_elf-eons_elite"
+					},
+					"chop_chop-eons_elite": {
+						"type": "figure",
+						"name": "Eon's Elite Chop Chop",
+						"path": "4-stt/eons_elite/3-chop_chop-eons_elite"
+					},
+					"terrafin-eons_elite": {
+						"type": "figure",
+						"name": "Eon's Elite Terrafin",
+						"path": "4-stt/eons_elite/4-terrafin-eons_elite"
+					},
+					"eruptor-eons_elite": {
+						"type": "figure",
+						"name": "Eon's Elite Eruptor",
+						"path": "4-stt/eons_elite/5-eruptor-eons_elite"
+					},
+					"gill_grunt-eons_elite": {
+						"type": "figure",
+						"name": "Eon's Elite Gill Grunt",
+						"path": "4-stt/eons_elite/6-gill_grunt-eons_elite"
+					},
+					"spyro-eons_elite": {
+						"type": "figure",
+						"name": "Eon's Elite Spyro",
+						"path": "4-stt/eons_elite/7-spyro-eons_elite"
+					},
+					"trigger_happy-eons_elite": {
+						"type": "figure",
+						"name": "Eon's Elite Trigger Happy",
+						"path": "4-stt/eons_elite/8-trigger_happy-eons_elite"
+					}
+				}
+			},
+			"minis": {
+				"type": "folder",
+				"name": "Minis",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"pet_vac-power_punch": {
+								"type": "figure",
+								"name": "Power Punch Pet-Vac",
+								"path": "4-stt/minis/variants/1-pet_vac-power_punch"
+							},
+							"barkley-gnarly": {
+								"type": "figure",
+								"name": "Gnarly Barkley",
+								"path": "4-stt/minis/variants/2-barkley-gnarly"
+							},
+							"weeruptor-eggsellent": {
+								"type": "figure",
+								"name": "Eggsellent Weeruptor",
+								"path": "4-stt/minis/variants/5-weeruptor-eggsellent"
+							}
+						}
+					},
+					"breeze": {
+						"type": "figure",
+						"name": "Breeze",
+						"path": "4-stt/minis/1-breeze"
+					},
+					"pet_vac": {
+						"type": "figure",
+						"name": "Pet-Vac",
+						"path": "4-stt/minis/1-pet_vac"
+					},
+					"barkley": {
+						"type": "figure",
+						"name": "Barkley",
+						"path": "4-stt/minis/2-barkley"
+					},
+					"whisper_elf": {
+						"type": "figure",
+						"name": "Whisper Elf",
+						"path": "4-stt/minis/2-whisper_elf"
+					},
+					"eye_small": {
+						"type": "figure",
+						"name": "Eye-Small",
+						"path": "4-stt/minis/3-eye_small"
+					},
+					"hijinx": {
+						"type": "figure",
+						"name": "Hijinx",
+						"path": "4-stt/minis/3-hijinx"
+					},
+					"bop": {
+						"type": "figure",
+						"name": "Bop",
+						"path": "4-stt/minis/4-bop"
+					},
+					"terrabite": {
+						"type": "figure",
+						"name": "Terrabite",
+						"path": "4-stt/minis/4-terrabite"
+					},
+					"small_fry": {
+						"type": "figure",
+						"name": "Small Fry",
+						"path": "4-stt/minis/5-small_fry"
+					},
+					"weeruptor": {
+						"type": "figure",
+						"name": "Weeruptor",
+						"path": "4-stt/minis/5-weeruptor"
+					},
+					"gill_runt": {
+						"type": "figure",
+						"name": "Gill Runt",
+						"path": "4-stt/minis/6-gill_runt"
+					},
+					"thumpling": {
+						"type": "figure",
+						"name": "Thumpling",
+						"path": "4-stt/minis/6-thumpling"
+					},
+					"mini_jini": {
+						"type": "figure",
+						"name": "Mini-Jini",
+						"path": "4-stt/minis/7-mini_jini"
+					},
+					"spry": {
+						"type": "figure",
+						"name": "Spry",
+						"path": "4-stt/minis/7-spry"
+					},
+					"drobit": {
+						"type": "figure",
+						"name": "Drobit",
+						"path": "4-stt/minis/8-drobit"
+					},
+					"trigger_snappy": {
+						"type": "figure",
+						"name": "Trigger Snappy",
+						"path": "4-stt/minis/8-trigger_snappy"
+					}
+				}
+			},
+			"traps": {
+				"type": "folder",
+				"name": "Traps",
+				"children": {
+					"villain_variants": {
+						"type": "folder",
+						"name": "Villain Variants",
+						"children": {
+							"lob_goblin-rebel": {
+								"type": "figure-item",
+								"name": "Rebel Lob Goblin (Light Rocket)",
+								"path": "4-stt/traps/villain_variants/9-lob_goblin-rebel"
+							},
+							"shield_shredder-riot": {
+								"type": "figure-item",
+								"name": "Riot Shield Shredder (Life Torch)",
+								"path": "4-stt/traps/villain_variants/2-shield_shredder-riot"
+							},
+							"broccoli_guy-steamed": {
+								"type": "figure-item",
+								"name": "Steamed Broccoli Guy (Life Toucan)",
+								"path": "4-stt/traps/villain_variants/2-broccoli_guy-steamed"
+							},
+							"tussle_sprout-red_hot": {
+								"type": "figure-item",
+								"name": "Red Hot Tussle Sprout (Earth Totem)",
+								"path": "4-stt/traps/villain_variants/4-tussle_sprout-red_hot"
+							},
+							"brawl_&_chain-outlaw": {
+								"type": "figure-item",
+								"name": "Outlaw Brawl & Chain (Water Log Holder)",
+								"path": "4-stt/traps/villain_variants/6-brawl_&_chain-outlaw"
+							},
+							"shrednaught-steampunk": {
+								"type": "figure-item",
+								"name": "Steampunk Shrednaught (Tech Flying Helmet)",
+								"path": "4-stt/traps/villain_variants/8-shrednaught-steampunk"
+							}
+						}
+					},
+					"light": {
+						"type": "folder",
+						"name": "Light",
+						"children": {
+							"hawk-1": {
+								"type": "figure-item",
+								"name": "Heavenly Hawk (Hawk) (1)",
+								"path": "4-stt/traps/9-light/hawk-1"
+							},
+							"hawk-2": {
+								"type": "figure-item",
+								"name": "Heavenly Hawk (Hawk) (2)",
+								"path": "4-stt/traps/9-light/hawk-2"
+							},
+							"rocket": {
+								"type": "figure-item",
+								"name": "Shining Ship (Rocket)",
+								"path": "4-stt/traps/9-light/rocket"
+							},
+							"yawn": {
+								"type": "figure-item",
+								"name": "Beam Scream (Yawn)",
+								"path": "4-stt/traps/9-light/yawn"
+							}
+						}
+					},
+					"air": {
+						"type": "folder",
+						"name": "Air",
+						"children": {
+							"hourglass": {
+								"type": "figure-item",
+								"name": "Tempest Timer (Hourglass)",
+								"path": "4-stt/traps/1-air/hourglass"
+							},
+							"jughead": {
+								"type": "figure-item",
+								"name": "Drafty Decanter (Jughead)",
+								"path": "4-stt/traps/1-air/jughead"
+							},
+							"screamer": {
+								"type": "figure-item",
+								"name": "Storm Warning (Screamer)",
+								"path": "4-stt/traps/1-air/screamer"
+							},
+							"snake": {
+								"type": "figure-item",
+								"name": "Cloud Cobra",
+								"path": "4-stt/traps/1-air/snake"
+							},
+							"sword": {
+								"type": "figure-item",
+								"name": "Cyclone Sabre (Sword)",
+								"path": "4-stt/traps/1-air/sword"
+							},
+							"toucan": {
+								"type": "figure-item",
+								"name": "Breezy Bird (Toucan)",
+								"path": "4-stt/traps/1-air/toucan"
+							}
+						}
+					},
+					"life": {
+						"type": "folder",
+						"name": "Life",
+						"children": {
+							"hammer": {
+								"type": "figure-item",
+								"name": "Weed Whacker (Hammer)",
+								"path": "4-stt/traps/2-life/hammer"
+							},
+							"snake": {
+								"type": "figure-item",
+								"name": "Seed Serpent (Snake)",
+								"path": "4-stt/traps/2-life/snake"
+							},
+							"sword": {
+								"type": "figure-item",
+								"name": "Jade Blade (Sword)",
+								"path": "4-stt/traps/2-life/sword"
+							},
+							"torch": {
+								"type": "figure-item",
+								"name": "Emerald Energy (Torch)",
+								"path": "4-stt/traps/2-life/torch"
+							},
+							"toucan": {
+								"type": "figure-item",
+								"name": "Oak Eagle (Toucan)",
+								"path": "4-stt/traps/2-life/toucan"
+							},
+							"yawn": {
+								"type": "figure-item",
+								"name": "Shrub Shrieker (Yawn)",
+								"path": "4-stt/traps/2-life/yawn"
+							}
+						}
+					},
+					"undead": {
+						"type": "folder",
+						"name": "Undead",
+						"children": {
+							"variants": {
+								"type": "folder",
+								"name": "Variants",
+								"children": {
+									"orb-legendary": {
+										"type": "figure-item",
+										"name": "Legendary Spirit Sphere (Orb)",
+										"path": "4-stt/traps/3-undead/variants/orb-legendary"
+									},
+									"skull-legendary": {
+										"type": "figure-item",
+										"name": "Legendary Spectral Skull (Skull)",
+										"path": "4-stt/traps/3-undead/variants/skull-legendary"
+									}
+								}
+							},
+							"axe": {
+								"type": "figure-item",
+								"name": "Haunted Hatchet (Axe)",
+								"path": "4-stt/traps/3-undead/axe"
+							},
+							"captains_hat": {
+								"type": "figure-item",
+								"name": "Dream Piercer (Captain's Hat)",
+								"path": "4-stt/traps/3-undead/captains_hat"
+							},
+							"hand": {
+								"type": "figure-item",
+								"name": "Grim Gripper (Hand)",
+								"path": "4-stt/traps/3-undead/hand"
+							},
+							"orb": {
+								"type": "figure-item",
+								"name": "Spirit Sphere (Orb)",
+								"path": "4-stt/traps/3-undead/orb"
+							},
+							"skull": {
+								"type": "figure-item",
+								"name": "Spectral Skull (Skull)",
+								"path": "4-stt/traps/3-undead/skull"
+							},
+							"snake": {
+								"type": "figure-item",
+								"name": "Spooky Snake (Snake)",
+								"path": "4-stt/traps/3-undead/snake"
+							}
+						}
+					},
+					"earth": {
+						"type": "folder",
+						"name": "Earth",
+						"children": {
+							"variants": {
+								"type": "folder",
+								"name": "Variants",
+								"children": {
+									"handstand-easter_bunny": {
+										"type": "figure-item",
+										"name": "Easter Bunny Rubble Trouble",
+										"path": "4-stt/traps/4-earth/variants/handstand-easter_bunny"
+									}
+								}
+							},
+							"hammer": {
+								"type": "figure-item",
+								"name": "Slag Hammer (Hammer)",
+								"path": "4-stt/traps/4-earth/hammer"
+							},
+							"handstand": {
+								"type": "figure-item",
+								"name": "Rubble Trouble (Handstand)",
+								"path": "4-stt/traps/4-earth/handstand"
+							},
+							"hourglass": {
+								"type": "figure-item",
+								"name": "Dust of Time (Hourglass)",
+								"path": "4-stt/traps/4-earth/hourglass"
+							},
+							"orb": {
+								"type": "figure-item",
+								"name": "Banded Boulder (Orb)",
+								"path": "4-stt/traps/4-earth/orb"
+							},
+							"totem": {
+								"type": "figure-item",
+								"name": "Spinning Sandstorm (Totem)",
+								"path": "4-stt/traps/4-earth/totem"
+							},
+							"toucan": {
+								"type": "figure-item",
+								"name": "Rock Hawk (Toucan)",
+								"path": "4-stt/traps/4-earth/toucan"
+							}
+						}
+					},
+					"fire": {
+						"type": "folder",
+						"name": "Fire",
+						"children": {
+							"captains_hat": {
+								"type": "figure-item",
+								"name": "Spark Spear (Captains Hat)",
+								"path": "4-stt/traps/5-fire/captains_hat"
+							},
+							"scepter": {
+								"type": "figure-item",
+								"name": "Fire Flower (Scepter)",
+								"path": "4-stt/traps/5-fire/scepter"
+							},
+							"screamer": {
+								"type": "figure-item",
+								"name": "Scorching Stopper (Screamer)",
+								"path": "4-stt/traps/5-fire/screamer"
+							},
+							"torch": {
+								"type": "figure-item",
+								"name": "Eternal Flame (Torch)",
+								"path": "4-stt/traps/5-fire/torch"
+							},
+							"totem": {
+								"type": "figure-item",
+								"name": "Searing Spinner (Totem)",
+								"path": "4-stt/traps/5-fire/totem"
+							},
+							"yawn": {
+								"type": "figure-item",
+								"name": "Blazing Belch (Yawn)",
+								"path": "4-stt/traps/5-fire/yawn"
+							}
+						}
+					},
+					"water": {
+						"type": "folder",
+						"name": "Water",
+						"children": {
+							"variants": {
+								"type": "folder",
+								"name": "Variants",
+								"children": {
+									"jughead-legendary": {
+										"type": "figure-item",
+										"name": "Legendary Flood Flask (Jughead)",
+										"path": "4-stt/traps/6-water/variants/jughead-legendary"
+									}
+								}
+							},
+							"angel": {
+								"type": "figure-item",
+								"name": "Soaking Staff (Angel)",
+								"path": "4-stt/traps/6-water/angel"
+							},
+							"axe": {
+								"type": "figure-item",
+								"name": "Aqua Axe (Axe)",
+								"path": "4-stt/traps/6-water/axe"
+							},
+							"flying_helmet": {
+								"type": "figure-item",
+								"name": "Frost Helm (Flying Helmet)",
+								"path": "4-stt/traps/6-water/flying_helmet"
+							},
+							"jughead": {
+								"type": "figure-item",
+								"name": "Flood Flask (Jughead)",
+								"path": "4-stt/traps/6-water/jughead"
+							},
+							"log_holder": {
+								"type": "figure-item",
+								"name": "Wet Walter (Log Holder)",
+								"path": "4-stt/traps/6-water/log_holder"
+							},
+							"tiki": {
+								"type": "figure-item",
+								"name": "Tidal Tiki (Tiki)",
+								"path": "4-stt/traps/6-water/tiki"
+							}
+						}
+					},
+					"magic": {
+						"type": "folder",
+						"name": "Magic",
+						"children": {
+							"axe": {
+								"type": "figure-item",
+								"name": "Axe of Illusion (Axe)",
+								"path": "4-stt/traps/7-magic/axe"
+							},
+							"hourglass": {
+								"type": "figure-item",
+								"name": "Arcane Hourglass (Hourglass)",
+								"path": "4-stt/traps/7-magic/hourglass"
+							},
+							"log_holder": {
+								"type": "figure-item",
+								"name": "Biter's Bane (Log Holder)",
+								"path": "4-stt/traps/7-magic/log_holder"
+							},
+							"rocket": {
+								"type": "figure-item",
+								"name": "Rune Rocket (Rocket)",
+								"path": "4-stt/traps/7-magic/rocket"
+							},
+							"skull": {
+								"type": "figure-item",
+								"name": "Sorcerous Skull (Skull)",
+								"path": "4-stt/traps/7-magic/skull"
+							},
+							"totem": {
+								"type": "figure-item",
+								"name": "Spell Slapper (Totem)",
+								"path": "4-stt/traps/7-magic/totem"
+							}
+						}
+					},
+					"tech": {
+						"type": "folder",
+						"name": "Tech",
+						"children": {
+							"angel": {
+								"type": "figure-item",
+								"name": "Automatic Angel (Angel)",
+								"path": "4-stt/traps/8-tech/angel"
+							},
+							"flying_helmet": {
+								"type": "figure-item",
+								"name": "Makers Mana (Flying Helmet)",
+								"path": "4-stt/traps/8-tech/flying_helmet"
+							},
+							"hand": {
+								"type": "figure-item",
+								"name": "Grabbing Gadget (Hand)",
+								"path": "4-stt/traps/8-tech/hand"
+							},
+							"totem": {
+								"type": "figure-item",
+								"name": "Topsy Techy (Handstand)",
+								"path": "4-stt/traps/8-tech/handstand"
+							},
+							"scepter": {
+								"type": "figure-item",
+								"name": "Factory Flower (Scepter)",
+								"path": "4-stt/traps/8-tech/scepter"
+							},
+							"tiki": {
+								"type": "figure-item",
+								"name": "Tech Totem (Tiki)",
+								"path": "4-stt/traps/8-tech/tiki"
+							}
+						}
+					},
+					"dark": {
+						"type": "folder",
+						"name": "Dark",
+						"children": {
+							"handstand": {
+								"type": "figure-item",
+								"name": "Ghastly Grimace (Handstand)",
+								"path": "4-stt/traps/10-dark/handstand"
+							},
+							"spider-1": {
+								"type": "figure-item",
+								"name": "Shadow Spider (Spider) (1)",
+								"path": "4-stt/traps/10-dark/spider-1"
+							},
+							"spider-2": {
+								"type": "figure-item",
+								"name": "Shadow Spider (Spider) (2)",
+								"path": "4-stt/traps/10-dark/spider-2"
+							},
+							"sword": {
+								"type": "figure-item",
+								"name": "Dark Dagger (Sword)",
+								"path": "4-stt/traps/10-dark/sword"
+							}
+						}
+					},
+					"kaos": {
+						"type": "folder",
+						"name": "Kaos",
+						"children": {
+							"variants": {
+								"type": "folder",
+								"name": "Variants",
+								"children": {
+									"kaos_trap-ultimate": {
+										"type": "figure-item",
+										"name": "Ultimate Kaos Trap",
+										"path": "4-stt/traps/11-kaos/variants/kaos_trap-ultimate"
+									}
+								}
+							},
+							"kaos_trap": {
+								"type": "figure-item",
+								"name": "The Kaos Trap",
+								"path": "4-stt/traps/11-kaos/kaos_trap"
+							}
+						}
+					}
+				}
+			},
+			"_sep1": {
+				"type": "sep"
+			},
+
+			"items": {
+				"type": "folder",
+				"name": "Magic Items",
+				"children": {
+					"hand_of_fate": {
+						"type": "item",
+						"name": "Hand of Fate",
+						"path": "4-stt/items/hand_of_fate"
+					},
+					"hand_of_fate-legendary": {
+						"type": "item",
+						"name": "Legendary Hand of Fate",
+						"path": "4-stt/items/hand_of_fate-legendary"
+					},
+					"piggy_bank": {
+						"type": "item",
+						"name": "Piggy Bank",
+						"path": "4-stt/items/piggy_bank"
+					},
+					"rocket_ram": {
+						"type": "item",
+						"name": "Rocket Ram",
+						"path": "4-stt/items/rocket_ram"
+					},
+					"tiki_speaky": {
+						"type": "item",
+						"name": "Tiki Speaky",
+						"path": "4-stt/items/tiki_speaky"
+					}
+				}
+			},
+			"packs": {
+				"type": "folder",
+				"name": "Adventure Packs",
+				"children": {
+					"midnight_museum": {
+						"type": "item",
+						"name": "Midnight Museum",
+						"path": "4-stt/packs/1-midnight_museum"
+					},
+					"midnight_museum-lightcore": {
+						"type": "item",
+						"name": "LightCore Midnight Museum",
+						"path": "4-stt/packs/1-midnight_museum-lightcore"
+					},
+					"sunscraper_spire": {
+						"type": "item",
+						"name": "Sunscraper Spire",
+						"path": "4-stt/packs/2-sunscraper_spire"
+					},
+					"sunscraper_spire-lightcore": {
+						"type": "item",
+						"name": "LightCore Sunscraper Spire",
+						"path": "4-stt/packs/2-sunscraper_spire-lightcore"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"nightmare_express": {
+						"type": "item",
+						"name": "Nightmare Express",
+						"path": "4-stt/packs/3-nightmare_express"
+					},
+					"mirror_of_mystery": {
+						"type": "item",
+						"name": "Mirror of Mystery",
+						"path": "4-stt/packs/4-mirror_of_mystery"
+					}
+				}
+			}
+		}
+	},
+	"ssc": {
+		"type": "folder",
+		"name": "SuperChargers",
+		"children": {
+			"light": {
+				"type": "folder",
+				"name": "Light",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"astroblast-legendary": {
+								"type": "figure",
+								"name": "Legendary Astroblast",
+								"path": "5-ssc/9-light/variants/1-astroblast-legendary"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"sun_runner-legendary": {
+								"type": "figure",
+								"name": "Legendary Sun Runner",
+								"path": "5-ssc/9-light/variants/vehicles/1-sun_runner-legendary"
+							}
+						}
+					},
+					"astroblast": {
+						"type": "figure",
+						"name": "Legendary Astroblast",
+						"path": "5-ssc/9-light/1-astroblast"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"sun_runner-legendary": {
+						"type": "figure",
+						"name": "Legendary Sun Runner",
+						"path": "5-ssc/9-light/vehicles/1-sun_runner"
+					}
+				}
+			},
+			"air": {
+				"type": "folder",
+				"name": "Air",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"jet_vac-ssc_legendary": {
+								"type": "figure",
+								"name": "Legendary Hurricane Jet-Vac",
+								"path": "5-ssc/1-air/variants/2-jet_vac-ssc_legendary"
+							},
+							"_sep": {
+								"type": "sep",
+								"flags": [
+									"nintendo_only"
+								]
+							},
+
+							"clown_cruiser-dark": {
+								"type": "figure",
+								"name": "Dark Clown Cruiser",
+								"path": "5-ssc/1-air/variants/vehicles/clown_cruiser-dark",
+								"flags": [
+									"nintendo_only"
+								]
+							}
+						}
+					},
+					"stormblade": {
+						"type": "figure",
+						"name": "Stormblade",
+						"path": "5-ssc/1-air/1-stormblade"
+					},
+					"jet_vac-ssc": {
+						"type": "figure",
+						"name": "Hurricane Jet-Vac",
+						"path": "5-ssc/1-air/2-jet_vac-ssc"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"sky_slicer": {
+						"type": "figure-item",
+						"name": "Sky Slicer",
+						"path": "5-ssc/1-air/vehicles/1-sky_slicer"
+					},
+					"jet_stream": {
+						"type": "figure-item",
+						"name": "Jet Stream",
+						"path": "5-ssc/1-air/vehicles/2-jet_stream"
+					},
+					"_sep1": {
+						"type": "sep",
+						"flags": [
+							"nintendo_only"
+						]
+					},
+
+					"clown_cruiser": {
+						"type": "figure-item",
+						"name": "Clown Cruiser",
+						"path": "5-ssc/1-air/vehicles/clown_cruiser",
+						"flags": [
+							"nintendo_only"
+						]
+					}
+				}
+			},
+			"life": {
+				"type": "folder",
+				"name": "Life",
+				"children": {
+                	"variants": {
+                		"type": "folder",
+						"name": "Variants",
+						"children": {
+							"thrillipede-eggcited": {
+								"type": "figure",
+								"name": "Eggcited Thrillipede",
+								"path": "5-ssc/2-life/variants/1-thrillipede-eggcited"
+							},
+							"2-stealth_elf-ssc_dark": {
+								"type": "figure",
+								"name": "Dark Super Shot Stealth Elf",
+								"path": "5-ssc/2-life/variants/2-stealth_elf-ssc_dark"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"stealth_stinger-nitro": {
+								"type": "figure-item",
+								"name": "Nitro Stealth Stinger",
+								"path": "5-ssc/2-life/variants/vehicles/2-stealth_stinger-nitro"
+							},
+							"_sep1": {
+								"type": "sep",
+								"flags": [
+									"nintendo_only"
+								]
+							},
+
+							"donkey_kong-ssc_dark": {
+								"type": "figure-item",
+								"name": "Dark Turbo Charge Donkey Kong",
+								"path": "5-ssc/2-life/variants/donkey_kong-ssc_dark",
+								"flags": [
+									"nintendo_only"
+								]
+							}
+						}
+                	},
+                	"thrillipede": {
+                		"type": "figure",
+                		"name": "Thrillipede",
+                		"path": "5-ssc/2-life/1-thrillipede"
+                	},
+					"stealth_elf-ssc": {
+						"type": "figure",
+						"name": "Super Shot Stealth Elf",
+						"path": "5-ssc/2-life/2-stealth_elf-ssc"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"buzz_wing": {
+						"type": "figure-item",
+						"name": "Buzz Wing",
+						"path": "5-ssc/2-life/vehicles/1-buzz_wing"
+					},
+					"stealth_stinger": {
+						"type": "figure-item",
+						"name": "Stealth Stinger",
+						"path": "5-ssc/2-life/vehicles/2-stealth_stinger"
+					},
+					"_sep1": {
+						"type": "sep",
+						"flags": [
+							"nintendo_only"
+						]
+					},
+
+					"donkey_kong-ssc": {
+						"type": "figure-item",
+						"name": "Turbo Charge Donkey Kong",
+						"path": "5-ssc/2-life/donkey_kong-ssc",
+						"flags": [
+							"nintendo_only"
+						]
+					}
+				}
+			},
+			"undead": {
+				"type": "folder",
+				"name": "Undead",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"fiesta-frightful": {
+								"type": "figure",
+								"name": "Frightful Fiesta",
+								"path": "5-ssc/3-undead/variants/1-fiesta-frightful"
+							},
+							"roller_brawl-ssc_legendary": {
+								"type": "figure",
+								"name": "Legendary Bone Bash Roller Brawl",
+								"path": "5-ssc/3-undead/variants/2-roller_brawl-ssc_legendary"
+							}
+						}
+					},
+					"fiesta": {
+						"type": "figure",
+						"name": "Fiesta",
+						"path": "5-ssc/3-undead/1-fiesta"
+					},
+					"roller_brawl-ssc": {
+						"type": "figure",
+						"name": "Bone Bash Roller Brawl",
+						"path": "5-ssc/3-undead/2-roller_brawl-ssc"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"crypt_crusher": {
+						"type": "figure-item",
+						"name": "Crypt Crusher",
+						"path": "5-ssc/3-undead/vehicles/1-crypt_crusher"
+					},
+					"tomb_buggy": {
+						"type": "figure-item",
+						"name": "Tomb Buggy",
+						"path": "5-ssc/3-undead/vehicles/2-tomb_buggy"
+					}
+				}
+			},
+			"earth": {
+				"type": "folder",
+				"name": "Earth",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"smash_hit-steel_plated": {
+								"type": "figure",
+								"name": "Steel Plated Smash Hit",
+								"path": "5-ssc/4-earth/variants/1-smash_hit-steel_plated"
+							}
+						}
+					},
+					"smash_hit": {
+						"type": "figure",
+						"name": "Smash Hit",
+						"path": "5-ssc/4-earth/1-smash_hit"
+					},
+					"terrafin-ssc": {
+						"type": "figure",
+						"name": "Shark Shooter Terrafin",
+						"path": "5-ssc/4-earth/2-terrafin-ssc"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"thump_truck": {
+						"type": "figure-item",
+						"name": "Thump Truck",
+						"path": "5-ssc/4-earth/vehicles/1-thump_truck"
+					},
+					"shark_tank": {
+						"type": "figure-item",
+						"name": "Shark Tank",
+						"path": "5-ssc/4-earth/vehicles/2-shark_tank"
+					}
+				}
+			},
+			"fire": {
+				"type": "folder",
+				"name": "Fire",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"spitfire-dark": {
+								"type": "figure",
+								"name": "Dark Spitfire",
+								"path": "5-ssc/5-fire/variants/1-spitfire-dark"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"hot_streak-dark": {
+								"type": "figure-item",
+								"name": "Dark Hot Streak",
+								"path": "5-ssc/5-fire/variants/vehicles/1-hot_streak-dark"
+							},
+							"hot_streak-e3": {
+								"type": "figure-item",
+								"name": "E3 Hot Streak",
+								"path": "5-ssc/5-fire/variants/vehicles/1-hot_streak-e3"
+							},
+							"hot_streak-golden": {
+								"type": "figure-item",
+								"name": "Golden Hot Streak",
+								"path": "5-ssc/5-fire/variants/vehicles/1-hot_streak-golden"
+							},
+							"hot_streak-mobile": {
+								"type": "figure-item",
+								"name": "Mobile Hot Streak",
+								"path": "5-ssc/5-fire/variants/vehicles/1-hot_streak-mobile"
+							},
+							"_sep1": {
+								"type": "sep",
+								"flags": [
+									"nintendo_only"
+								]
+							},
+
+							"bowser-ssc_dark": {
+								"type": "figure",
+								"name": "Dark Hammer Slam Bowser",
+								"path": "5-ssc/5-fire/variants/bowser-ssc_dark",
+								"flags": [
+									"nintendo_only"
+								]
+							}
+						}
+					},
+					"spitfire": {
+						"type": "figure",
+						"name": "Spitfire",
+						"path": "5-ssc/5-fire/1-spitfire"
+					},
+					"eruptor-ssc": {
+						"type": "figure",
+						"name": "Lava Lance Eruptor",
+						"path": "5-ssc/5-fire/2-eruptor-ssc"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"hot_streak": {
+						"type": "figure-item",
+						"name": "Hot Streak",
+						"path": "5-ssc/5-fire/vehicles/1-hot_streak"
+					},
+					"burn_cycle": {
+						"type": "figure-item",
+						"name": "Burn-Cycle",
+						"path": "5-ssc/5-fire/vehicles/2-burn_cycle"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"bowser-ssc": {
+						"type": "figure",
+						"name": "Hammer Slam Bowser",
+						"path": "5-ssc/5-fire/bowser-ssc",
+						"flags": [
+							"nintendo_only"
+						]
+					}
+				}
+			},
+			"water": {
+				"type": "folder",
+				"name": "Water",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"dive_clops-missile_tow": {
+								"type": "figure",
+								"name": "Missile-Tow Dive-Clops",
+								"path": "5-ssc/6-water/variants/1-dive_clops-missile_tow"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"dive_bomber-spring_ahead": {
+								"type": "figure",
+								"name": "Spring Ahead Dive Bomber",
+								"path": "5-ssc/6-water/variants/vehicles/1-dive_bomber-spring_ahead"
+							}
+						}
+					},
+					"dive_clops": {
+						"type": "figure",
+						"name": "Dive-Clops",
+						"path": "5-ssc/6-water/1-dive_clops"
+					},
+					"gill_grunt-ssc": {
+						"type": "figure",
+						"name": "Deep Dive Gill Grunt",
+						"path": "5-ssc/6-water/2-gill_grunt-ssc"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"dive_bomber": {
+						"type": "figure-item",
+						"name": "Dive Bomber",
+						"path": "5-ssc/6-water/vehicles/1-dive_bomber"
+					},
+					"reef_ripper": {
+						"type": "figure-item",
+						"name": "Reef Ripper",
+						"path": "5-ssc/6-water/vehicles/2-reef_ripper"
+					}
+				}
+			},
+			"magic": {
+				"type": "folder",
+				"name": "Magic",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"splat-power_blue": {
+								"type": "figure",
+								"name": "Power Blue Splat",
+								"path": "5-ssc/7-magic/variants/1-splat-power_blue"
+							},
+							"pop_fizz-ssc_birthday_bash": {
+								"type": "figure",
+								"name": "Birthday Bash Big Bubble Pop Fizz",
+								"path": "5-ssc/7-magic/variants/2-pop_fizz-ssc_birthday_bash"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"splatter_splasher-power_blue": {
+								"type": "figure-item",
+								"name": "Power Blue Splatter Splasher",
+								"path": "5-ssc/7-magic/variants/vehicles/1-splatter_splasher-power_blue"
+							},
+							"soda_skimmer-nitro": {
+								"type": "figure-item",
+								"name": "Nitro Soda Skimmer",
+								"path": "5-ssc/7-magic/variants/vehicles/2-soda_skimmer-nitro"
+							}
+						}
+					},
+					"splat": {
+						"type": "figure",
+						"name": "Splat",
+						"path": "5-ssc/7-magic/1-splat"
+					},
+					"pop_fizz-ssc": {
+						"type": "figure",
+						"name": "Big Bubble Pop Fizz",
+						"path": "5-ssc/7-magic/2-pop_fizz-ssc"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"splatter_splasher": {
+						"type": "figure-item",
+						"name": "Splatter Splasher",
+						"path": "5-ssc/7-magic/vehicles/1-splatter_splasher"
+					},
+					"soda_skimmer": {
+						"type": "figure-item",
+						"name": "Soda Skimmer",
+						"path": "5-ssc/7-magic/vehicles/2-soda_skimmer"
+					}
+				}
+			},
+			"tech": {
+				"type": "folder",
+				"name": "Tech",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"trigger_happy-ssc_power_blue": {
+								"type": "figure",
+								"name": "Power Blue Double Dare Trigger Happy",
+								"path": "5-ssc/8-tech/variants/2-trigger_happy-ssc_power_blue"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"gold_rusher-power_blue": {
+								"type": "figure",
+								"name": "Power Blue Gold Rusher",
+								"path": "5-ssc/8-tech/variants/vehicles/2-gold_rusher-power_blue"
+							},
+							"_sep1": {
+								"type": "sep",
+								"flags": [
+									"nintendo_only"
+								]
+							},
+
+							"barrel_blaster-dark": {
+								"type": "figure",
+								"name": "Dark Barrel Blaster",
+								"path": "5-ssc/8-tech/variants/vehicles/barrel_blaster-dark",
+								"flags": [
+									"nintendo_only"
+								]
+							}
+						}
+					},
+					"high_volt": {
+						"type": "figure",
+						"name": "High Volt",
+						"path": "5-ssc/8-tech/1-high_volt"
+					},
+					"trigger_happy-ssc": {
+						"type": "figure",
+						"name": "Double Dare Trigger Happy",
+						"path": "5-ssc/8-tech/2-trigger_happy-ssc"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"shield_striker": {
+						"type": "figure-item",
+						"name": "Shield Striker",
+						"path": "5-ssc/8-tech/vehicles/1-shield_striker"
+					},
+					"gold_rusher": {
+						"type": "figure-item",
+						"name": "Gold Rusher",
+						"path": "5-ssc/8-tech/vehicles/2-gold_rusher"
+					}
+				}
+			},
+			"dark": {
+				"type": "folder",
+				"name": "Dark",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"sea_shadow-dark": {
+								"type": "figure-item",
+								"name": "Dark Sea Shadow",
+								"path": "5-ssc/10-dark/variants/vehicles/1-sea_shadow-dark"
+							}
+						}
+					},
+					"nightfall": {
+						"type": "figure",
+						"name": "Nightfall",
+						"path": "5-ssc/10-dark/1-nightfall"
+					},
+					"sea_shadow": {
+						"type": "figure-item",
+						"name": "Dark Sea Shadow",
+						"path": "5-ssc/10-dark/vehicles/1-sea_shadow"
+					}
+				}
+			},
+			"_sep": {
+				"type": "sep"
+			},
+
+			"guest_characters": {
+				"type": "folder",
+				"name": "Guest Characters",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"bowser-ssc_dark": {
+								"type": "figure",
+								"name": "Dark Hammer Slam Bowser",
+								"path": "5-ssc/5-fire/variants/bowser-ssc_dark"
+							},
+							"donkey_kong-ssc_dark": {
+								"type": "figure",
+								"name": "Dark Turbo Charge Donkey Kong",
+								"path": "5-ssc/2-life/variants/donkey_kong-ssc_dark"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"clown_cruiser-dark": {
+								"type": "figure-item",
+								"name": "Dark Clown Cruiser",
+								"path": "5-ssc/1-air/variants/vehicles/clown_cruiser-dark"
+							},
+							"barrel_blaster-dark": {
+								"type": "figure-item",
+								"name": "Dark Barrel Blaster",
+								"path": "5-ssc/8-tech/variants/vehicles/barrel_blaster-dark"
+							}
+						}
+					},
+					"bowser-ssc": {
+						"type": "figure",
+						"name": "Hammer Slam Bowser",
+						"path": "5-ssc/5-fire/bowser-ssc"
+					},
+					"donkey_kong-ssc": {
+						"type": "figure",
+						"name": "Turbo Charge Donkey Kong",
+						"path": "5-ssc/2-life/donkey_kong-ssc"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"clown_cruiser": {
+						"type": "figure-item",
+						"name": "Clown Cruiser",
+						"path": "5-ssc/1-air/vehicles/clown_cruiser"
+					},
+					"barrel_blaster": {
+						"type": "figure-item",
+						"name": "Barrel Blaster",
+						"path": "5-ssc/8-tech/vehicles/barrel_blaster"
+					}
+				},
+				"flags": [
+					"nintendo_only"
+				]
+			},
+			"eons_elite": {
+				"type": "folder",
+				"name": "Eon's Elite",
+				"children": {
+					"zook-eons_elite": {
+						"type": "figure",
+						"name": "Eon's Elite Zook",
+						"path": "5-ssc/eons_elite/2-zook-eons_elite"
+					},
+					"ghost_roaster-eons_elite": {
+						"type": "figure",
+						"name": "Eon's Elite Ghost Roaster",
+						"path": "5-ssc/eons_elite/3-ghost_roaster-eons_elite"
+					},
+					"dino_rang-eons_elite": {
+						"type": "figure",
+						"name": "Eon's Elite Dino-Rang",
+						"path": "5-ssc/eons_elite/4-dino_rang-eons_elite"
+					},
+					"slam_bam-eons_elite": {
+						"type": "figure",
+						"name": "Eon's Elite Slam Bam",
+						"path": "5-ssc/eons_elite/6-slam_bam-eons_elite"
+					},
+					"voodood-eons_elite": {
+						"type": "figure",
+						"name": "Eon's Elite Voodood",
+						"path": "5-ssc/eons_elite/7-voodood-eons_elite"
+					},
+					"boomer-eons_elite": {
+						"type": "figure",
+						"name": "Eon's Elite Boomer",
+						"path": "5-ssc/eons_elite/8-boomer-eons_elite"
+					}
+				}
+			},
+			"_sep1": {
+				"type": "sep"
+			},
+
+			"items": {
+				"type": "folder",
+				"name": "Magic Items",
+				"children": {
+					"land_trophy": {
+						"type": "item",
+						"name": "Land Trophy",
+						"path": "5-ssc/items/land_trophy"
+					},
+					"sea_trophy": {
+						"type": "item",
+						"name": "Sea Trophy",
+						"path": "5-ssc/items/sea_trophy"
+					},
+					"sky_trophy": {
+						"type": "item",
+						"name": "Sky Trophy",
+						"path": "5-ssc/items/sky_trophy"
+					},
+					"kaos_trophy": {
+						"type": "item",
+						"name": "Kaos Trophy",
+						"path": "5-ssc/items/kaos_trophy"
+					}
+				}
+			}
+		}
+	},
+	"si": {
+		"type": "folder",
+		"name": "Imaginators",
+		"children": {
+			"light": {
+				"type": "folder",
+				"name": "Light",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"aurora-solar_flare": {
+								"type": "figure",
+								"name": "Solar Flare Aurora",
+								"path": "6-si/9-light/variants/1-aurora-solar_flare"
+							}
+						}
+					},
+					"aurora": {
+						"type": "figure",
+						"name": "Aurora",
+						"path": "6-si/9-light/1-aurora"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"blaster_tron": {
+						"type": "figure",
+						"name": "Blaster-Tron",
+						"path": "6-si/9-light/2-blaster_tron"
+					}
+				}
+			},
+			"air": {
+				"type": "folder",
+				"name": "Air",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"air_strike-egg_bomber": {
+								"type": "figure",
+								"name": "Egg Bomber Air Strike",
+								"path": "6-si/1-air/variants/1-air_strike-egg_bomber"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"bad_juju-mystical": {
+								"type": "figure",
+								"name": "Mystical Bad Juju",
+								"path": "6-si/1-air/variants/2-bad_juju-mystical"
+							}
+						}
+					},
+					"air_strike": {
+						"type": "figure",
+						"name": "Air Strike",
+						"path": "6-si/1-air/1-air_strike"
+					},
+					"wild_storm": {
+						"type": "figure",
+						"name": "Wild Storm",
+						"path": "6-si/1-air/1-wild_storm"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"bad_juju": {
+						"type": "figure",
+						"name": "Bad Juju",
+						"path": "6-si/1-air/2-bad_juju"
+					}
+				}
+			},
+			"life": {
+				"type": "folder",
+				"name": "Life",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"chompy_mage-jingle_bell": {
+								"type": "figure",
+								"name": "Jingle Bell Chompy Mage",
+								"path": "6-si/2-life/variants/2-chompy_mage-jingle_bell"
+							}
+						}
+					},
+					"ambush": {
+						"type": "figure",
+						"name": "Ambush",
+						"path": "6-si/2-life/1-ambush"
+					},
+					"boom_bloom": {
+						"type": "figure",
+						"name": "Boom Bloom",
+						"path": "6-si/2-life/1-boom_bloom"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"chompy_mage": {
+						"type": "figure",
+						"name": "Chompy Mage",
+						"path": "6-si/2-life/2-chompy_mage"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"crash_bandicoot": {
+						"type": "figure",
+						"name": "Crash Bandicoot",
+						"path": "6-si/2-life/crash_bandicoot"
+					}
+				}
+			},
+			"undead": {
+				"type": "folder",
+				"name": "Undead",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"chopscotch-candy_coated": {
+								"type": "figure",
+								"name": "Candy Coated Chopscotch",
+								"path": "6-si/3-undead/variants/1-chopscotch-candy_coated"
+							},
+							"bit_boss-legendary": {
+								"type": "figure",
+								"name": "Legendary Pit Boss",
+								"path": "6-si/3-undead/variants/1-pit_boss-legendary"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"wolfgang-dark": {
+								"type": "figure",
+								"name": "Dark Wolfgang",
+								"path": "6-si/3-undead/variants/2-wolfgang-dark"
+							}
+						}
+					},
+					"chopscotch": {
+						"type": "figure",
+						"name": "Chopscotch",
+						"path": "6-si/3-undead/1-chopscotch"
+					},
+					"pit_boss": {
+						"type": "figure",
+						"name": "Pit Boss",
+						"path": "6-si/3-undead/1-pit_boss"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"wolfgang": {
+						"type": "figure",
+						"name": "Wolfgang",
+						"path": "6-si/3-undead/2-wolfgang"
+					}
+				}
+			},
+			"earth": {
+				"type": "folder",
+				"name": "Earth",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"tri_tip-legendary": {
+								"type": "figure",
+								"name": "Legendary Tri-Tip",
+								"path": "6-si/4-earth/variants/1-tri_tip-legendary"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"golden_queen-dark": {
+								"type": "figure",
+								"name": "Dark Golden Queen",
+								"path": "6-si/4-earth/variants/2-golden_queen-dark"
+							}
+						}
+					},
+					"barbella": {
+						"type": "figure",
+						"name": "Barbella",
+						"path": "6-si/4-earth/1-barbella"
+					},
+					"tri_tip": {
+						"type": "figure",
+						"name": "Tri-Tip",
+						"path": "6-si/4-earth/1-tri_tip"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"golden_queen": {
+						"type": "figure",
+						"name": "Golden Queen",
+						"path": "6-si/4-earth/2-golden_queen"
+					}
+				}
+			},
+			"fire": {
+				"type": "folder",
+				"name": "Fire",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"flare_wolf-hard_boiled": {
+								"type": "figure",
+								"name": "Hard-Boiled Flare Wolf",
+								"path": "6-si/5-fire/variants/1-flare_wolf-hard_boiled"
+							},
+							"_sep": {
+								"type": "sep"
+							},
+
+							"tae_kwon_crow-mystical": {
+								"type": "figure",
+								"name": "Mystical Tae Kwon Crow",
+								"path": "6-si/5-fire/variants/2-tae_kwon_crow-mystical"
+							}
+						}
+					},
+					"ember": {
+						"type": "figure",
+						"name": "Ember",
+						"path": "6-si/5-fire/1-ember"
+					},
+					"flare_wolf": {
+						"type": "figure",
+						"name": "Flare Wolf",
+						"path": "6-si/5-fire/1-flare_wolf"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"tae_kwon_crow": {
+						"type": "figure",
+						"name": "Tae Kwon Crow",
+						"path": "6-si/5-fire/2-tae_kwon_crow"
+					}
+				}
+			},
+			"water": {
+				"type": "folder",
+				"name": "Water",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"king_pen-dark": {
+								"type": "figure",
+								"name": "Dark King Pen",
+								"path": "6-si/6-water/variants/1-king_pen-dark"
+							}
+						}
+					},
+					"king_pen": {
+						"type": "figure",
+						"name": "King Pen",
+						"path": "6-si/6-water/1-king_pen"
+					},
+					"Tidepool": {
+						"type": "figure",
+						"name": "Tidepool",
+						"path": "6-si/6-water/1-tidepool"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"grave_clobber": {
+						"type": "figure",
+						"name": "Grave Clobber",
+						"path": "6-si/6-water/2-grave_clobber"
+					}
+				}
+			},
+			"magic": {
+				"type": "folder",
+				"name": "Magic",
+				"children": {
+					"buckshot": {
+						"type": "figure",
+						"name": "Buckshot",
+						"path": "6-si/7-magic/1-buckshot"
+					},
+					"mysticat": {
+						"type": "figure",
+						"name": "Mysticat",
+						"path": "6-si/7-magic/1-mysticat"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"pain_yatta": {
+						"type": "figure",
+						"name": "Pain-Yatta",
+						"path": "6-si/7-magic/2-pain_yatta"
+					}
+				}
+			},
+			"tech": {
+				"type": "folder",
+				"name": "Tech",
+				"children": {
+					"chain_reaction": {
+						"type": "figure",
+						"name": "Chain Reaction",
+						"path": "6-si/8-tech/1-chain_reaction"
+					},
+					"ro_bow": {
+						"type": "figure",
+						"name": "Ro-Bow",
+						"path": "6-si/8-tech/1-ro_bow"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"dr_krankcase": {
+						"type": "figure",
+						"name": "Dr. Krankcase",
+						"path": "6-si/8-tech/2-dr_krankcase"
+					},
+					"_sep1": {
+						"type": "sep"
+					},
+
+					"dr_neo_cortex": {
+						"type": "figure",
+						"name": "Dr. Neo Cortex",
+						"path": "6-si/8-tech/dr_neo_cortex"
+					}
+				}
+			},
+			"dark": {
+				"type": "folder",
+				"name": "Dark",
+				"children": {
+					"variants": {
+						"type": "folder",
+						"name": "Variants",
+						"children": {
+							"hood_sickle-steel_plated": {
+								"type": "figure",
+								"name": "Steel Plated Hood Sickle",
+								"path": "6-si/10-dark/variants/2-hood_sickle-steel_plated"
+							}
+						}
+					},
+					"starcast": {
+						"type": "figure",
+						"name": "Starcast",
+						"path": "6-si/10-dark/1-starcast"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"hood_sickle": {
+						"type": "figure",
+						"name": "Hood Sickle",
+						"path": "6-si/10-dark/2-hood_sickle"
+					}
+				}
+			},
+			"kaos": {
+				"type": "folder",
+				"name": "Kaos",
+				"children": {
+					"kaos": {
+						"type": "figure",
+						"name": "Kaos",
+						"path": "6-si/11-kaos/2-kaos"
+					}
+				}
+			},
+			"_sep": {
+				"type": "sep"
+			},
+
+			"guest characters": {
+				"type": "folder",
+				"name": "Guest Characters",
+				"children": {
+					"crash_bandicoot": {
+						"type": "figure",
+						"name": "Crash Bandicoot",
+						"path": "6-si/2-life/crash_bandicoot"
+					},
+					"dr_neo_cortex": {
+						"type": "figure",
+						"name": "Dr. Neo Cortex",
+						"path": "6-si/8-tech/dr_neo_cortex"
+					}
+				}
+			},
+			"creation_crystals": {
+				"type": "folder",
+				"name": "Creation Crystals",
+				"children": {
+					"light": {
+						"type": "folder",
+						"name": "Light",
+						"children": {
+							"variants": {
+								"type": "folder",
+								"name": "Variants",
+								"children": {
+									"fanged-legendary-1": {
+										"type": "figure-item",
+										"name": "Legendary Light Fanged Creation Crystal (1)",
+										"path": "6-si/creation_crystals/9-light/variants/fanged-legendary-1"
+									},
+									"fanged-legendary-2": {
+										"type": "figure-item",
+										"name": "Legendary Light Fanged Creation Crystal (2)",
+										"path": "6-si/creation_crystals/9-light/variants/fanged-legendary-2"
+									},
+									"fanged-legendary-3": {
+										"type": "figure-item",
+										"name": "Legendary Light Fanged Creation Crystal (3)",
+										"path": "6-si/creation_crystals/9-light/variants/fanged-legendary-3"
+									},
+									"fanged-legendary-4": {
+										"type": "figure-item",
+										"name": "Legendary Light Fanged Creation Crystal (4)",
+										"path": "6-si/creation_crystals/9-light/variants/fanged-legendary-4"
+									},
+									"fanged-legendary-5": {
+										"type": "figure-item",
+										"name": "Legendary Light Fanged Creation Crystal (5)",
+										"path": "6-si/creation_crystals/9-light/variants/fanged-legendary-5"
+									}
+								}
+							},
+							"fanged-1": {
+								"type": "figure-item",
+								"name": "Light Fanged Creation Crystal (1)",
+								"path": "6-si/creation_crystals/9-light/fanged-1"
+							},
+							"fanged-2": {
+								"type": "figure-item",
+								"name": "Light Fanged Creation Crystal (2)",
+								"path": "6-si/creation_crystals/9-light/fanged-2"
+							},
+							"fanged-3": {
+								"type": "figure-item",
+								"name": "Light Fanged Creation Crystal (3)",
+								"path": "6-si/creation_crystals/9-light/fanged-3"
+							},
+							"fanged-4": {
+								"type": "figure-item",
+								"name": "Light Fanged Creation Crystal (4)",
+								"path": "6-si/creation_crystals/9-light/fanged-4"
+							},
+							"fanged-5": {
+								"type": "figure-item",
+								"name": "Light Fanged Creation Crystal (5)",
+								"path": "6-si/creation_crystals/9-light/fanged-5"
+							},
+							"rune-1": {
+								"type": "figure-item",
+								"name": "Light Rune Creation Crystal (1)",
+								"path": "6-si/creation_crystals/9-light/rune-1"
+							},
+							"rune-2": {
+								"type": "figure-item",
+								"name": "Light Rune Creation Crystal (2)",
+								"path": "6-si/creation_crystals/9-light/rune-2"
+							},
+							"rune-3": {
+								"type": "figure-item",
+								"name": "Light Rune Creation Crystal (3)",
+								"path": "6-si/creation_crystals/9-light/rune-3"
+							},
+							"rune-4": {
+								"type": "figure-item",
+								"name": "Light Rune Creation Crystal (4)",
+								"path": "6-si/creation_crystals/9-light/rune-4"
+							},
+							"rune-5": {
+								"type": "figure-item",
+								"name": "Light Rune Creation Crystal (5)",
+								"path": "6-si/creation_crystals/9-light/rune-5"
+							}
+						}
+					},
+					"air": {
+						"type": "folder",
+						"name": "Air",
+						"children": {
+							"angel-1": {
+								"type": "figure-item",
+								"name": "Air Angel Creation Crystal (1)",
+								"path": "6-si/creation_crystals/1-air/angel-1"
+							},
+							"angel-2": {
+								"type": "figure-item",
+								"name": "Air Angel Creation Crystal (2)",
+								"path": "6-si/creation_crystals/1-air/angel-2"
+							},
+							"angel-3": {
+								"type": "figure-item",
+								"name": "Air Angel Creation Crystal (3)",
+								"path": "6-si/creation_crystals/1-air/angel-3"
+							},
+							"angel-4": {
+								"type": "figure-item",
+								"name": "Air Angel Creation Crystal (4)",
+								"path": "6-si/creation_crystals/1-air/angel-4"
+							},
+							"angel-5": {
+								"type": "figure-item",
+								"name": "Air Angel Creation Crystal (5)",
+								"path": "6-si/creation_crystals/1-air/angel-5"
+							},
+							"lantern-1": {
+								"type": "figure-item",
+								"name": "Air Lantern Creation Crystal (1)",
+								"path": "6-si/creation_crystals/1-air/lantern-1"
+							},
+							"lantern-2": {
+								"type": "figure-item",
+								"name": "Air Lantern Creation Crystal (2)",
+								"path": "6-si/creation_crystals/1-air/lantern-2"
+							},
+							"lantern-3": {
+								"type": "figure-item",
+								"name": "Air Lantern Creation Crystal (3)",
+								"path": "6-si/creation_crystals/1-air/lantern-3"
+							},
+							"lantern-4": {
+								"type": "figure-item",
+								"name": "Air Lantern Creation Crystal (4)",
+								"path": "6-si/creation_crystals/1-air/lantern-4"
+							},
+							"lantern-5": {
+								"type": "figure-item",
+								"name": "Air Lantern Creation Crystal (5)",
+								"path": "6-si/creation_crystals/1-air/lantern-5"
+							}
+						}
+					},
+					"life": {
+						"type": "folder",
+						"name": "Life",
+						"children": {
+							"variants": {
+								"type": "folder",
+								"name": "Variants",
+								"children": {
+									"acorn-legendary-1": {
+										"type": "figure-item",
+										"name": "Legendary Life Acorn Creation Crystal (1)",
+										"path": "6-si/creation_crystals/2-life/variants/acorn-legendary-1"
+									},
+									"acorn-legendary-2": {
+										"type": "figure-item",
+										"name": "Legendary Life Acorn Creation Crystal (2)",
+										"path": "6-si/creation_crystals/2-life/variants/acorn-legendary-2"
+									},
+									"acorn-legendary-3": {
+										"type": "figure-item",
+										"name": "Legendary Life Acorn Creation Crystal (3)",
+										"path": "6-si/creation_crystals/2-life/variants/acorn-legendary-3"
+									},
+									"acorn-legendary-4": {
+										"type": "figure-item",
+										"name": "Legendary Life Acorn Creation Crystal (4)",
+										"path": "6-si/creation_crystals/2-life/variants/acorn-legendary-4"
+									},
+									"acorn-legendary-5": {
+										"type": "figure-item",
+										"name": "Legendary Life Acorn Creation Crystal (5)",
+										"path": "6-si/creation_crystals/2-life/variants/acorn-legendary-5"
+									}
+								}
+							},
+							"acorn-1": {
+								"type": "figure-item",
+								"name": "Life Acorn Creation Crystal (1)",
+								"path": "6-si/creation_crystals/2-life/acorn-1"
+							},
+							"acorn-2": {
+								"type": "figure-item",
+								"name": "Life Acorn Creation Crystal (2)",
+								"path": "6-si/creation_crystals/2-life/acorn-2"
+							},
+							"acorn-3": {
+								"type": "figure-item",
+								"name": "Life Acorn Creation Crystal (3)",
+								"path": "6-si/creation_crystals/2-life/acorn-3"
+							},
+							"claw-1": {
+								"type": "figure-item",
+								"name": "Life Claw Creation Crystal (1)",
+								"path": "6-si/creation_crystals/2-life/claw-1"
+							},
+							"claw-2": {
+								"type": "figure-item",
+								"name": "Life Claw Creation Crystal (2)",
+								"path": "6-si/creation_crystals/2-life/claw-2"
+							},
+							"claw-3": {
+								"type": "figure-item",
+								"name": "Life Claw Creation Crystal (3)",
+								"path": "6-si/creation_crystals/2-life/claw-3"
+							},
+							"rocket-1": {
+								"type": "figure-item",
+								"name": "Life Rocket Creation Crystal (1)",
+								"path": "6-si/creation_crystals/2-life/rocket-1"
+							},
+							"rocket-2": {
+								"type": "figure-item",
+								"name": "Life Rocket Creation Crystal (2)",
+								"path": "6-si/creation_crystals/2-life/rocket-2"
+							},
+							"rocket-3": {
+								"type": "figure-item",
+								"name": "Life Rocket Creation Crystal (3)",
+								"path": "6-si/creation_crystals/2-life/rocket-3"
+							},
+							"rune-1": {
+								"type": "figure-item",
+								"name": "Life Rune Creation Crystal (1)",
+								"path": "6-si/creation_crystals/2-life/rune-1"
+							},
+							"rune-2": {
+								"type": "figure-item",
+								"name": "Life Rune Creation Crystal (2)",
+								"path": "6-si/creation_crystals/2-life/rune-2"
+							},
+							"rune-3": {
+								"type": "figure-item",
+								"name": "Life Rune Creation Crystal (3)",
+								"path": "6-si/creation_crystals/2-life/rune-3"
+							}
+						}
+					},
+					"undead": {
+						"type": "folder",
+						"name": "Undead",
+						"children": {
+							"claw-1": {
+								"type": "figure-item",
+								"name": "Undead Claw Creation Crystal (1)",
+								"path": "6-si/creation_crystals/3-undead/claw-1"
+							},
+							"claw-2": {
+								"type": "figure-item",
+								"name": "Undead Claw Creation Crystal (2)",
+								"path": "6-si/creation_crystals/3-undead/claw-2"
+							},
+							"claw-3": {
+								"type": "figure-item",
+								"name": "Undead Claw Creation Crystal (3)",
+								"path": "6-si/creation_crystals/3-undead/claw-3"
+							},
+							"claw-4": {
+								"type": "figure-item",
+								"name": "Undead Claw Creation Crystal (4)",
+								"path": "6-si/creation_crystals/3-undead/claw-4"
+							},
+							"fanged-1": {
+								"type": "figure-item",
+								"name": "Undead Fanged Creation Crystal (1)",
+								"path": "6-si/creation_crystals/3-undead/fanged-1"
+							},
+							"fanged-2": {
+								"type": "figure-item",
+								"name": "Undead Fanged Creation Crystal (2)",
+								"path": "6-si/creation_crystals/3-undead/fanged-2"
+							},
+							"fanged-3": {
+								"type": "figure-item",
+								"name": "Undead Fanged Creation Crystal (3)",
+								"path": "6-si/creation_crystals/3-undead/fanged-3"
+							},
+							"fanged-4": {
+								"type": "figure-item",
+								"name": "Undead Fanged Creation Crystal (4)",
+								"path": "6-si/creation_crystals/3-undead/fanged-4"
+							},
+							"lantern-1": {
+								"type": "figure-item",
+								"name": "Undead Lantern Creation Crystal (1)",
+								"path": "6-si/creation_crystals/3-undead/lantern-1"
+							},
+							"lantern-2": {
+								"type": "figure-item",
+								"name": "Undead Lantern Creation Crystal (2)",
+								"path": "6-si/creation_crystals/3-undead/lantern-2"
+							},
+							"lantern-3": {
+								"type": "figure-item",
+								"name": "Undead Lantern Creation Crystal (3)",
+								"path": "6-si/creation_crystals/3-undead/lantern-3"
+							},
+							"lantern-4": {
+								"type": "figure-item",
+								"name": "Undead Lantern Creation Crystal (4)",
+								"path": "6-si/creation_crystals/3-undead/lantern-4"
+							}
+						}
+					},
+					"earth": {
+						"type": "folder",
+						"name": "Earth",
+						"children": {
+							"armor-1": {
+								"type": "figure-item",
+								"name": "Earth Armor Creation Crystal (1)",
+								"path": "6-si/creation_crystals/4-earth/armor-1"
+							},
+							"armor-2": {
+								"type": "figure-item",
+								"name": "Earth Armor Creation Crystal (2)",
+								"path": "6-si/creation_crystals/4-earth/armor-2"
+							},
+							"armor-3": {
+								"type": "figure-item",
+								"name": "Earth Armor Creation Crystal (3)",
+								"path": "6-si/creation_crystals/4-earth/armor-3"
+							},
+							"armor-4": {
+								"type": "figure-item",
+								"name": "Earth Armor Creation Crystal (4)",
+								"path": "6-si/creation_crystals/4-earth/armor-4"
+							},
+							"armor-5": {
+								"type": "figure-item",
+								"name": "Earth Armor Creation Crystal (5)",
+								"path": "6-si/creation_crystals/4-earth/armor-5"
+							},
+							"rocket-1": {
+								"type": "figure-item",
+								"name": "Earth Rocket Creation Crystal (1)",
+								"path": "6-si/creation_crystals/4-earth/rocket-1"
+							},
+							"rocket-2": {
+								"type": "figure-item",
+								"name": "Earth Rocket Creation Crystal (2)",
+								"path": "6-si/creation_crystals/4-earth/rocket-2"
+							},
+							"rocket-3": {
+								"type": "figure-item",
+								"name": "Earth Rocket Creation Crystal (3)",
+								"path": "6-si/creation_crystals/4-earth/rocket-3"
+							},
+							"rocket-4": {
+								"type": "figure-item",
+								"name": "Earth Rocket Creation Crystal (4)",
+								"path": "6-si/creation_crystals/4-earth/rocket-4"
+							},
+							"rocket-5": {
+								"type": "figure-item",
+								"name": "Earth Rocket Creation Crystal (5)",
+								"path": "6-si/creation_crystals/4-earth/rocket-5"
+							}
+						}
+					},
+					"fire": {
+						"type": "folder",
+						"name": "Fire",
+						"children": {
+							"acorn-1": {
+								"type": "figure-item",
+								"name": "Fire Acorn Creation Crystal (1)",
+								"path": "6-si/creation_crystals/5-fire/acorn-1"
+							},
+							"acorn-2": {
+								"type": "figure-item",
+								"name": "Fire Acorn Creation Crystal (2)",
+								"path": "6-si/creation_crystals/5-fire/acorn-2"
+							},
+							"acorn-3": {
+								"type": "figure-item",
+								"name": "Fire Acorn Creation Crystal (3)",
+								"path": "6-si/creation_crystals/5-fire/acorn-3"
+							},
+							"acorn-4": {
+								"type": "figure-item",
+								"name": "Fire Acorn Creation Crystal (4)",
+								"path": "6-si/creation_crystals/5-fire/acorn-4"
+							},
+							"acorn-5": {
+								"type": "figure-item",
+								"name": "Fire Acorn Creation Crystal (5)",
+								"path": "6-si/creation_crystals/5-fire/acorn-5"
+							},
+							"reactor-1": {
+								"type": "figure-item",
+								"name": "Fire Reactor Creation Crystal (1)",
+								"path": "6-si/creation_crystals/5-fire/reactor-1"
+							},
+							"reactor-2": {
+								"type": "figure-item",
+								"name": "Fire Reactor Creation Crystal (2)",
+								"path": "6-si/creation_crystals/5-fire/reactor-2"
+							},
+							"reactor-3": {
+								"type": "figure-item",
+								"name": "Fire Reactor Creation Crystal (3)",
+								"path": "6-si/creation_crystals/5-fire/reactor-3"
+							},
+							"reactor-4": {
+								"type": "figure-item",
+								"name": "Fire Reactor Creation Crystal (4)",
+								"path": "6-si/creation_crystals/5-fire/reactor-4"
+							},
+							"reactor-5": {
+								"type": "figure-item",
+								"name": "Fire Reactor Creation Crystal (5)",
+								"path": "6-si/creation_crystals/5-fire/reactor-5"
+							}
+						}
+					},
+					"water": {
+						"type": "folder",
+						"name": "Water",
+						"children": {
+							"armor-1": {
+								"type": "figure-item",
+								"name": "Water Armor Creation Crystal (1)",
+								"path": "6-si/creation_crystals/6-water/armor-1"
+							},
+							"armor-2": {
+								"type": "figure-item",
+								"name": "Water Armor Creation Crystal (2)",
+								"path": "6-si/creation_crystals/6-water/armor-2"
+							},
+							"armor-3": {
+								"type": "figure-item",
+								"name": "Water Armor Creation Crystal (3)",
+								"path": "6-si/creation_crystals/6-water/armor-3"
+							},
+							"armor-4": {
+								"type": "figure-item",
+								"name": "Water Armor Creation Crystal (4)",
+								"path": "6-si/creation_crystals/6-water/armor-4"
+							},
+							"fanged-1": {
+								"type": "figure-item",
+								"name": "Water Fanged Creation Crystal (1)",
+								"path": "6-si/creation_crystals/6-water/fanged-1"
+							},
+							"fanged-2": {
+								"type": "figure-item",
+								"name": "Water Fanged Creation Crystal (2)",
+								"path": "6-si/creation_crystals/6-water/fanged-2"
+							},
+							"fanged-3": {
+								"type": "figure-item",
+								"name": "Water Fanged Creation Crystal (3)",
+								"path": "6-si/creation_crystals/6-water/fanged-3"
+							},
+							"fanged-4": {
+								"type": "figure-item",
+								"name": "Water Fanged Creation Crystal (4)",
+								"path": "6-si/creation_crystals/6-water/fanged-4"
+							},
+							"rocket-1": {
+								"type": "figure-item",
+								"name": "Water Rocket Creation Crystal (1)",
+								"path": "6-si/creation_crystals/6-water/rocket-1"
+							},
+							"rocket-2": {
+								"type": "figure-item",
+								"name": "Water Rocket Creation Crystal (2)",
+								"path": "6-si/creation_crystals/6-water/rocket-2"
+							},
+							"rocket-3": {
+								"type": "figure-item",
+								"name": "Water Rocket Creation Crystal (3)",
+								"path": "6-si/creation_crystals/6-water/rocket-3"
+							},
+							"rocket-4": {
+								"type": "figure-item",
+								"name": "Water Rocket Creation Crystal (4)",
+								"path": "6-si/creation_crystals/6-water/rocket-4"
+							}
+						}
+					},
+					"magic": {
+						"type": "folder",
+						"name": "Magic",
+						"children": {
+							"variants": {
+								"type": "folder",
+								"name": "Variants",
+								"children": {
+									"lantern-legendary-1": {
+										"type": "figure-item",
+										"name": "Legendary Magic Lantern Creation Crystal (1)",
+										"path": "6-si/creation_crystals/7-magic/variants/lantern-legendary-1"
+									},
+									"lantern-legendary-2": {
+										"type": "figure-item",
+										"name": "Legendary Magic Lantern Creation Crystal (2)",
+										"path": "6-si/creation_crystals/7-magic/variants/lantern-legendary-2"
+									},
+									"lantern-legendary-3": {
+										"type": "figure-item",
+										"name": "Legendary Magic Lantern Creation Crystal (3)",
+										"path": "6-si/creation_crystals/7-magic/variants/lantern-legendary-3"
+									},
+									"lantern-legendary-4": {
+										"type": "figure-item",
+										"name": "Legendary Magic Lantern Creation Crystal (4)",
+										"path": "6-si/creation_crystals/7-magic/variants/lantern-legendary-4"
+									},
+									"lantern-legendary-5": {
+										"type": "figure-item",
+										"name": "Legendary Magic Lantern Creation Crystal (5)",
+										"path": "6-si/creation_crystals/7-magic/variants/lantern-legendary-5"
+									}
+								}
+							},
+							"claw-1": {
+								"type": "figure-item",
+								"name": "Magic Claw Creation Crystal (1)",
+								"path": "6-si/creation_crystals/7-magic/claw-1"
+							},
+							"claw-2": {
+								"type": "figure-item",
+								"name": "Magic Claw Creation Crystal (2)",
+								"path": "6-si/creation_crystals/7-magic/claw-2"
+							},
+							"claw-3": {
+								"type": "figure-item",
+								"name": "Magic Claw Creation Crystal (3)",
+								"path": "6-si/creation_crystals/7-magic/claw-3"
+							},
+							"claw-4": {
+								"type": "figure-item",
+								"name": "Magic Claw Creation Crystal (4)",
+								"path": "6-si/creation_crystals/7-magic/claw-4"
+							},
+							"lantern-1": {
+								"type": "figure-item",
+								"name": "Magic Lantern Creation Crystal (1)",
+								"path": "6-si/creation_crystals/7-magic/lantern-1"
+							},
+							"lantern-2": {
+								"type": "figure-item",
+								"name": "Magic Lantern Creation Crystal (2)",
+								"path": "6-si/creation_crystals/7-magic/lantern-2"
+							},
+							"lantern-3": {
+								"type": "figure-item",
+								"name": "Magic Lantern Creation Crystal (3)",
+								"path": "6-si/creation_crystals/7-magic/lantern-3"
+							},
+							"lantern-4": {
+								"type": "figure-item",
+								"name": "Magic Lantern Creation Crystal (4)",
+								"path": "6-si/creation_crystals/7-magic/lantern-4"
+							},
+							"pyramid-1": {
+								"type": "figure-item",
+								"name": "Magic Pyramid Creation Crystal (1)",
+								"path": "6-si/creation_crystals/7-magic/pyramid-1"
+							},
+							"pyramid-2": {
+								"type": "figure-item",
+								"name": "Magic Pyramid Creation Crystal (2)",
+								"path": "6-si/creation_crystals/7-magic/pyramid-2"
+							},
+							"pyramid-3": {
+								"type": "figure-item",
+								"name": "Magic Pyramid Creation Crystal (3)",
+								"path": "6-si/creation_crystals/7-magic/pyramid-3"
+							},
+							"pyramid-4": {
+								"type": "figure-item",
+								"name": "Magic Pyramid Creation Crystal (4)",
+								"path": "6-si/creation_crystals/7-magic/pyramid-4"
+							}
+						}
+					},
+					"tech": {
+						"type": "folder",
+						"name": "Tech",
+						"children": {
+							"armor-1": {
+								"type": "figure-item",
+								"name": "Tech Armor Creation Crystal (1)",
+								"path": "6-si/creation_crystals/8-tech/armor-1"
+							},
+							"armor-2": {
+								"type": "figure-item",
+								"name": "Tech Armor Creation Crystal (2)",
+								"path": "6-si/creation_crystals/8-tech/armor-2"
+							},
+							"armor-3": {
+								"type": "figure-item",
+								"name": "Tech Armor Creation Crystal (3)",
+								"path": "6-si/creation_crystals/8-tech/armor-3"
+							},
+							"armor-4": {
+								"type": "figure-item",
+								"name": "Tech Armor Creation Crystal (4)",
+								"path": "6-si/creation_crystals/8-tech/armor-4"
+							},
+							"armor-5": {
+								"type": "figure-item",
+								"name": "Tech Armor Creation Crystal (5)",
+								"path": "6-si/creation_crystals/8-tech/armor-5"
+							},
+							"reactor-1": {
+								"type": "figure-item",
+								"name": "Tech Reactor Creation Crystal (1)",
+								"path": "6-si/creation_crystals/8-tech/reactor-1"
+							},
+							"reactor-2": {
+								"type": "figure-item",
+								"name": "Tech Reactor Creation Crystal (2)",
+								"path": "6-si/creation_crystals/8-tech/reactor-2"
+							},
+							"reactor-3": {
+								"type": "figure-item",
+								"name": "Tech Reactor Creation Crystal (3)",
+								"path": "6-si/creation_crystals/8-tech/reactor-3"
+							},
+							"reactor-4": {
+								"type": "figure-item",
+								"name": "Tech Reactor Creation Crystal (4)",
+								"path": "6-si/creation_crystals/8-tech/reactor-4"
+							},
+							"reactor-5": {
+								"type": "figure-item",
+								"name": "Tech Reactor Creation Crystal (5)",
+								"path": "6-si/creation_crystals/8-tech/reactor-5"
+							}
+						}
+					},
+					"dark": {
+						"type": "folder",
+						"name": "Dark",
+						"children": {
+							"pyramid-1": {
+								"type": "figure-item",
+								"name": "Dark Pyramid Creation Crystal (1)",
+								"path": "6-si/creation_crystals/10-dark/pyramid-1"
+							},
+							"pyramid-2": {
+								"type": "figure-item",
+								"name": "Dark Pyramid Creation Crystal (2)",
+								"path": "6-si/creation_crystals/10-dark/pyramid-2"
+							},
+							"pyramid-3": {
+								"type": "figure-item",
+								"name": "Dark Pyramid Creation Crystal (3)",
+								"path": "6-si/creation_crystals/10-dark/pyramid-3"
+							},
+							"pyramid-4": {
+								"type": "figure-item",
+								"name": "Dark Pyramid Creation Crystal (4)",
+								"path": "6-si/creation_crystals/10-dark/pyramid-4"
+							},
+							"reactor-1": {
+								"type": "figure-item",
+								"name": "Dark Reactor Creation Crystal (1)",
+								"path": "6-si/creation_crystals/10-dark/reactor-1"
+							},
+							"reactor-2": {
+								"type": "figure-item",
+								"name": "Dark Reactor Creation Crystal (2)",
+								"path": "6-si/creation_crystals/10-dark/reactor-2"
+							},
+							"reactor-3": {
+								"type": "figure-item",
+								"name": "Dark Reactor Creation Crystal (3)",
+								"path": "6-si/creation_crystals/10-dark/reactor-3"
+							},
+							"reactor-4": {
+								"type": "figure-item",
+								"name": "Dark Reactor Creation Crystal (4)",
+								"path": "6-si/creation_crystals/10-dark/reactor-4"
+							},
+							"rune-1": {
+								"type": "figure-item",
+								"name": "Dark Rune Creation Crystal (1)",
+								"path": "6-si/creation_crystals/10-dark/rune-1"
+							},
+							"rune-2": {
+								"type": "figure-item",
+								"name": "Dark Rune Creation Crystal (2)",
+								"path": "6-si/creation_crystals/10-dark/rune-2"
+							},
+							"rune-3": {
+								"type": "figure-item",
+								"name": "Dark Rune Creation Crystal (3)",
+								"path": "6-si/creation_crystals/10-dark/rune-3"
+							},
+							"rune-4": {
+								"type": "figure-item",
+								"name": "Dark Rune Creation Crystal (4)",
+								"path": "6-si/creation_crystals/10-dark/rune-4"
+							}
+						}
+					}
+				}
+			},
+			"_sep1": {
+				"type": "sep"
+			},
+
+			"items": {
+				"type": "folder",
+				"name": "Magic Items",
+				"children": {
+					"bronze": {
+						"type": "folder",
+						"name": "Bronze Chests",
+						"children": {
+							"chest-1": {
+								"type": "item",
+								"name": "Chest 1",
+								"path": "6-si/items/1-bronze/chest-1"
+							},
+							"chest-2": {
+								"type": "item",
+								"name": "Chest 2",
+								"path": "6-si/items/1-bronze/chest-2"
+							},
+							"chest-3": {
+								"type": "item",
+								"name": "Chest 3",
+								"path": "6-si/items/1-bronze/chest-3"
+							},
+							"chest-4": {
+								"type": "item",
+								"name": "Chest 4",
+								"path": "6-si/items/1-bronze/chest-4"
+							},
+							"chest-5": {
+								"type": "item",
+								"name": "Chest 5",
+								"path": "6-si/items/1-bronze/chest-5"
+							},
+							"chest-6": {
+								"type": "item",
+								"name": "Chest 6",
+								"path": "6-si/items/1-bronze/chest-6"
+							},
+							"chest-7": {
+								"type": "item",
+								"name": "Chest 7",
+								"path": "6-si/items/1-bronze/chest-7"
+							},
+							"chest-8": {
+								"type": "item",
+								"name": "Chest 8",
+								"path": "6-si/items/1-bronze/chest-8"
+							},
+							"chest-9": {
+								"type": "item",
+								"name": "Chest 9",
+								"path": "6-si/items/1-bronze/chest-9"
+							},
+							"chest-10": {
+								"type": "item",
+								"name": "Chest 10",
+								"path": "6-si/items/1-bronze/chest-10"
+							},
+							"chest-11": {
+								"type": "item",
+								"name": "Chest 11",
+								"path": "6-si/items/1-bronze/chest-11"
+							},
+							"chest-12": {
+								"type": "item",
+								"name": "Chest 12",
+								"path": "6-si/items/1-bronze/chest-12"
+							},
+							"chest-13": {
+								"type": "item",
+								"name": "Chest 13",
+								"path": "6-si/items/1-bronze/chest-13"
+							},
+							"chest-14": {
+								"type": "item",
+								"name": "Chest 14",
+								"path": "6-si/items/1-bronze/chest-14"
+							},
+							"chest-15": {
+								"type": "item",
+								"name": "Chest 15",
+								"path": "6-si/items/1-bronze/chest-15"
+							},
+							"chest-16": {
+								"type": "item",
+								"name": "Chest 16",
+								"path": "6-si/items/1-bronze/chest-16"
+							},
+							"chest-17": {
+								"type": "item",
+								"name": "Chest 17",
+								"path": "6-si/items/1-bronze/chest-17"
+							},
+							"chest-18": {
+								"type": "item",
+								"name": "Chest 18",
+								"path": "6-si/items/1-bronze/chest-18"
+							},
+							"chest-19": {
+								"type": "item",
+								"name": "Chest 19",
+								"path": "6-si/items/1-bronze/chest-19"
+							},
+							"chest-20": {
+								"type": "item",
+								"name": "Chest 20",
+								"path": "6-si/items/1-bronze/chest-20"
+							},
+							"chest-21": {
+								"type": "item",
+								"name": "Chest 21",
+								"path": "6-si/items/1-bronze/chest-21"
+							},
+							"chest-22": {
+								"type": "item",
+								"name": "Chest 22",
+								"path": "6-si/items/1-bronze/chest-22"
+							},
+							"chest-23": {
+								"type": "item",
+								"name": "Chest 23",
+								"path": "6-si/items/1-bronze/chest-23"
+							},
+							"chest-24": {
+								"type": "item",
+								"name": "Chest 24",
+								"path": "6-si/items/1-bronze/chest-24"
+							},
+							"chest-25": {
+								"type": "item",
+								"name": "Chest 25",
+								"path": "6-si/items/1-bronze/chest-25"
+							},
+							"chest-26": {
+								"type": "item",
+								"name": "Chest 26",
+								"path": "6-si/items/1-bronze/chest-26"
+							},
+							"chest-27": {
+								"type": "item",
+								"name": "Chest 27",
+								"path": "6-si/items/1-bronze/chest-27"
+							},
+							"chest-28": {
+								"type": "item",
+								"name": "Chest 28",
+								"path": "6-si/items/1-bronze/chest-28"
+							},
+							"chest-29": {
+								"type": "item",
+								"name": "Chest 29",
+								"path": "6-si/items/1-bronze/chest-29"
+							},
+							"chest-30": {
+								"type": "item",
+								"name": "Chest 30",
+								"path": "6-si/items/1-bronze/chest-30"
+							},
+							"chest-31": {
+								"type": "item",
+								"name": "Chest 31",
+								"path": "6-si/items/1-bronze/chest-31"
+							},
+							"chest-32": {
+								"type": "item",
+								"name": "Chest 32",
+								"path": "6-si/items/1-bronze/chest-32"
+							},
+							"chest-33": {
+								"type": "item",
+								"name": "Chest 33",
+								"path": "6-si/items/1-bronze/chest-33"
+							},
+							"chest-34": {
+								"type": "item",
+								"name": "Chest 34",
+								"path": "6-si/items/1-bronze/chest-34"
+							},
+							"chest-35": {
+								"type": "item",
+								"name": "Chest 35",
+								"path": "6-si/items/1-bronze/chest-35"
+							},
+							"chest-36": {
+								"type": "item",
+								"name": "Chest 36",
+								"path": "6-si/items/1-bronze/chest-36"
+							},
+							"chest-37": {
+								"type": "item",
+								"name": "Chest 37",
+								"path": "6-si/items/1-bronze/chest-37"
+							},
+							"chest-38": {
+								"type": "item",
+								"name": "Chest 38",
+								"path": "6-si/items/1-bronze/chest-38"
+							},
+							"chest-39": {
+								"type": "item",
+								"name": "Chest 39",
+								"path": "6-si/items/1-bronze/chest-39"
+							},
+							"chest-40": {
+								"type": "item",
+								"name": "Chest 40",
+								"path": "6-si/items/1-bronze/chest-40"
+							},
+							"chest-41": {
+								"type": "item",
+								"name": "Chest 41",
+								"path": "6-si/items/1-bronze/chest-41"
+							},
+							"chest-42": {
+								"type": "item",
+								"name": "Chest 42",
+								"path": "6-si/items/1-bronze/chest-42"
+							},
+							"chest-43": {
+								"type": "item",
+								"name": "Chest 43",
+								"path": "6-si/items/1-bronze/chest-43"
+							},
+							"chest-44": {
+								"type": "item",
+								"name": "Chest 44",
+								"path": "6-si/items/1-bronze/chest-44"
+							},
+							"chest-45": {
+								"type": "item",
+								"name": "Chest 45",
+								"path": "6-si/items/1-bronze/chest-45"
+							},
+							"chest-46": {
+								"type": "item",
+								"name": "Chest 46",
+								"path": "6-si/items/1-bronze/chest-46"
+							},
+							"chest-47": {
+								"type": "item",
+								"name": "Chest 47",
+								"path": "6-si/items/1-bronze/chest-47"
+							},
+							"chest-48": {
+								"type": "item",
+								"name": "Chest 48",
+								"path": "6-si/items/1-bronze/chest-48"
+							},
+							"chest-49": {
+								"type": "item",
+								"name": "Chest 49",
+								"path": "6-si/items/1-bronze/chest-49"
+							},
+							"chest-50": {
+								"type": "item",
+								"name": "Chest 50",
+								"path": "6-si/items/1-bronze/chest-50"
+							},
+							"chest-51": {
+								"type": "item",
+								"name": "Chest 51",
+								"path": "6-si/items/1-bronze/chest-51"
+							},
+							"chest-52": {
+								"type": "item",
+								"name": "Chest 52",
+								"path": "6-si/items/1-bronze/chest-52"
+							},
+							"chest-53": {
+								"type": "item",
+								"name": "Chest 53",
+								"path": "6-si/items/1-bronze/chest-53"
+							},
+							"chest-54": {
+								"type": "item",
+								"name": "Chest 54",
+								"path": "6-si/items/1-bronze/chest-54"
+							},
+							"chest-55": {
+								"type": "item",
+								"name": "Chest 55",
+								"path": "6-si/items/1-bronze/chest-55"
+							}
+						}
+					},
+					"silver": {
+						"type": "folder",
+						"name": "Silver Chests",
+						"children": {
+							"chest-1": {
+								"type": "item",
+								"name": "Chest 1",
+								"path": "6-si/items/2-silver/chest-1"
+							},
+							"chest-2": {
+								"type": "item",
+								"name": "Chest 2",
+								"path": "6-si/items/2-silver/chest-2"
+							},
+							"chest-3": {
+								"type": "item",
+								"name": "Chest 3",
+								"path": "6-si/items/2-silver/chest-3"
+							},
+							"chest-4": {
+								"type": "item",
+								"name": "Chest 4",
+								"path": "6-si/items/2-silver/chest-4"
+							},
+							"chest-5": {
+								"type": "item",
+								"name": "Chest 5",
+								"path": "6-si/items/2-silver/chest-5"
+							},
+							"chest-6": {
+								"type": "item",
+								"name": "Chest 6",
+								"path": "6-si/items/2-silver/chest-6"
+							},
+							"chest-7": {
+								"type": "item",
+								"name": "Chest 7",
+								"path": "6-si/items/2-silver/chest-7"
+							},
+							"chest-8": {
+								"type": "item",
+								"name": "Chest 8",
+								"path": "6-si/items/2-silver/chest-8"
+							},
+							"chest-9": {
+								"type": "item",
+								"name": "Chest 9",
+								"path": "6-si/items/2-silver/chest-9"
+							},
+							"chest-10": {
+								"type": "item",
+								"name": "Chest 10",
+								"path": "6-si/items/2-silver/chest-10"
+							},
+							"chest-11": {
+								"type": "item",
+								"name": "Chest 11",
+								"path": "6-si/items/2-silver/chest-11"
+							},
+							"chest-12": {
+								"type": "item",
+								"name": "Chest 12",
+								"path": "6-si/items/2-silver/chest-12"
+							},
+							"chest-13": {
+								"type": "item",
+								"name": "Chest 13",
+								"path": "6-si/items/2-silver/chest-13"
+							},
+							"chest-14": {
+								"type": "item",
+								"name": "Chest 14",
+								"path": "6-si/items/2-silver/chest-14"
+							},
+							"chest-15": {
+								"type": "item",
+								"name": "Chest 15",
+								"path": "6-si/items/2-silver/chest-15"
+							},
+							"chest-16": {
+								"type": "item",
+								"name": "Chest 16",
+								"path": "6-si/items/2-silver/chest-16"
+							},
+							"chest-17": {
+								"type": "item",
+								"name": "Chest 17",
+								"path": "6-si/items/2-silver/chest-17"
+							},
+							"chest-18": {
+								"type": "item",
+								"name": "Chest 18",
+								"path": "6-si/items/2-silver/chest-18"
+							},
+							"chest-19": {
+								"type": "item",
+								"name": "Chest 19",
+								"path": "6-si/items/2-silver/chest-19"
+							},
+							"chest-20": {
+								"type": "item",
+								"name": "Chest 20",
+								"path": "6-si/items/2-silver/chest-20"
+							},
+							"chest-21": {
+								"type": "item",
+								"name": "Chest 21",
+								"path": "6-si/items/2-silver/chest-21"
+							},
+							"chest-22": {
+								"type": "item",
+								"name": "Chest 22",
+								"path": "6-si/items/2-silver/chest-22"
+							},
+							"chest-23": {
+								"type": "item",
+								"name": "Chest 23",
+								"path": "6-si/items/2-silver/chest-23"
+							},
+							"chest-24": {
+								"type": "item",
+								"name": "Chest 24",
+								"path": "6-si/items/2-silver/chest-24"
+							},
+							"chest-25": {
+								"type": "item",
+								"name": "Chest 25",
+								"path": "6-si/items/2-silver/chest-25"
+							},
+							"chest-26": {
+								"type": "item",
+								"name": "Chest 26",
+								"path": "6-si/items/2-silver/chest-26"
+							},
+							"chest-27": {
+								"type": "item",
+								"name": "Chest 27",
+								"path": "6-si/items/2-silver/chest-27"
+							},
+							"chest-28": {
+								"type": "item",
+								"name": "Chest 28",
+								"path": "6-si/items/2-silver/chest-28"
+							},
+							"chest-29": {
+								"type": "item",
+								"name": "Chest 29",
+								"path": "6-si/items/2-silver/chest-29"
+							},
+							"chest-30": {
+								"type": "item",
+								"name": "Chest 30",
+								"path": "6-si/items/2-silver/chest-30"
+							},
+							"chest-31": {
+								"type": "item",
+								"name": "Chest 31",
+								"path": "6-si/items/2-silver/chest-31"
+							},
+							"chest-32": {
+								"type": "item",
+								"name": "Chest 32",
+								"path": "6-si/items/2-silver/chest-32"
+							},
+							"chest-33": {
+								"type": "item",
+								"name": "Chest 33",
+								"path": "6-si/items/2-silver/chest-33"
+							},
+							"chest-34": {
+								"type": "item",
+								"name": "Chest 34",
+								"path": "6-si/items/2-silver/chest-34"
+							},
+							"chest-35": {
+								"type": "item",
+								"name": "Chest 35",
+								"path": "6-si/items/2-silver/chest-35"
+							},
+							"chest-36": {
+								"type": "item",
+								"name": "Chest 36",
+								"path": "6-si/items/2-silver/chest-36"
+							}
+						}
+					},
+					"gold": {
+						"type": "folder",
+						"name": "Gold Chests",
+						"children": {
+							"chest-1": {
+								"type": "item",
+								"name": "Chest 1",
+								"path": "6-si/items/3-gold/chest-1"
+							},
+							"chest-2": {
+								"type": "item",
+								"name": "Chest 2",
+								"path": "6-si/items/3-gold/chest-2"
+							},
+							"chest-3": {
+								"type": "item",
+								"name": "Chest 3",
+								"path": "6-si/items/3-gold/chest-3"
+							},
+							"chest-4": {
+								"type": "item",
+								"name": "Chest 4",
+								"path": "6-si/items/3-gold/chest-4"
+							},
+							"chest-5": {
+								"type": "item",
+								"name": "Chest 5",
+								"path": "6-si/items/3-gold/chest-5"
+							},
+							"chest-6": {
+								"type": "item",
+								"name": "Chest 6",
+								"path": "6-si/items/3-gold/chest-6"
+							},
+							"chest-7": {
+								"type": "item",
+								"name": "Chest 7",
+								"path": "6-si/items/3-gold/chest-7"
+							},
+							"chest-8": {
+								"type": "item",
+								"name": "Chest 8",
+								"path": "6-si/items/3-gold/chest-8"
+							},
+							"chest-9": {
+								"type": "item",
+								"name": "Chest 9",
+								"path": "6-si/items/3-gold/chest-9"
+							},
+							"chest-10": {
+								"type": "item",
+								"name": "Chest 10",
+								"path": "6-si/items/3-gold/chest-10"
+							},
+							"chest-11": {
+								"type": "item",
+								"name": "Chest 11",
+								"path": "6-si/items/3-gold/chest-11"
+							},
+							"chest-12": {
+								"type": "item",
+								"name": "Chest 12",
+								"path": "6-si/items/3-gold/chest-12"
+							},
+							"chest-13": {
+								"type": "item",
+								"name": "Chest 13",
+								"path": "6-si/items/3-gold/chest-13"
+							},
+							"chest-14": {
+								"type": "item",
+								"name": "Chest 14",
+								"path": "6-si/items/3-gold/chest-14"
+							},
+							"chest-15": {
+								"type": "item",
+								"name": "Chest 15",
+								"path": "6-si/items/3-gold/chest-15"
+							}
+						}
+					},
+					"cursed_tiki_temple": {
+						"type": "folder",
+						"name": "Blue Chest (Cursed Tiki Temple)",
+						"children": {
+							"chest-1": {
+								"type": "item",
+								"name": "Chest 1",
+								"path": "6-si/items/4-cursed_tiki_temple/chest-1"
+							},
+							"chest-2": {
+								"type": "item",
+								"name": "Chest 2",
+								"path": "6-si/items/4-cursed_tiki_temple/chest-2"
+							}
+						}
+					},
+					"lost_imaginite_mines": {
+						"type": "folder",
+						"name": "Blue Chest (Lost Imaginite Mines)",
+						"children": {
+							"chest-1": {
+								"type": "item",
+								"name": "Chest 1",
+								"path": "6-si/items/5-lost_imaginite_mines/chest-1"
+							},
+							"chest-2": {
+								"type": "item",
+								"name": "Chest 2",
+								"path": "6-si/items/5-lost_imaginite_mines/chest-2"
+							}
+						}
+					}
+				}
+			},
+			"packs": {
+				"type": "folder",
+				"name": "Adventure Packs",
+				"children": {
+					"gryphon_park_observatory": {
+						"type": "item",
+						"name": "Gryphon Park Observatory",
+						"path": "6-si/packs/1-gryphon_park_observatory"
+					},
+					"enchanted_elven_forest": {
+						"type": "item",
+						"name": "Enchanted Elven Forest",
+						"path": "6-si/packs/2-enchanted_elven_forest"
+					}
+				}
+			}
+		}
+	},
+	"_sep": {
+		"type": "sep"
+	},
+
+	"eons_elite": {
+		"type": "folder",
+		"name": "Eon's Elite",
+		"children": {
+			"whirlwind-eons_elite": {
+				"type": "figure",
+				"name": "Eon's Elite Whirlwind",
+				"path": "4-stt/eons_elite/1-whirlwind-eons_elite"
+			},
+			"stealth_elf-eons_elite": {
+				"type": "figure",
+				"name": "Eon's Elite Stealth Elf",
+				"path": "4-stt/eons_elite/2-stealth_elf-eons_elite"
+			},
+			"chop_chop-eons_elite": {
+				"type": "figure",
+				"name": "Eon's Elite Chop Chop",
+				"path": "4-stt/eons_elite/3-chop_chop-eons_elite"
+			},
+			"terrafin-eons_elite": {
+				"type": "figure",
+				"name": "Eon's Elite Terrafin",
+				"path": "4-stt/eons_elite/4-terrafin-eons_elite"
+			},
+			"eruptor-eons_elite": {
+				"type": "figure",
+				"name": "Eon's Elite Eruptor",
+				"path": "4-stt/eons_elite/5-eruptor-eons_elite"
+			},
+			"gill_grunt-eons_elite": {
+				"type": "figure",
+				"name": "Eon's Elite Gill Grunt",
+				"path": "4-stt/eons_elite/6-gill_grunt-eons_elite"
+			},
+			"spyro-eons_elite": {
+				"type": "figure",
+				"name": "Eon's Elite Spyro",
+				"path": "4-stt/eons_elite/7-spyro-eons_elite"
+			},
+			"trigger_happy-eons_elite": {
+				"type": "figure",
+				"name": "Eon's Elite Trigger Happy",
+				"path": "4-stt/eons_elite/8-trigger_happy-eons_elite"
+			},
+			"_sep": {
+				"type": "sep"
+			},
+
+			"zook-eons_elite": {
+				"type": "figure",
+				"name": "Eon's Elite Zook",
+				"path": "5-ssc/eons_elite/2-zook-eons_elite"
+			},
+			"ghost_roaster-eons_elite": {
+				"type": "figure",
+				"name": "Eon's Elite Ghost Roaster",
+				"path": "5-ssc/eons_elite/3-ghost_roaster-eons_elite"
+			},
+			"dino_rang-eons_elite": {
+				"type": "figure",
+				"name": "Eon's Elite Dino-Rang",
+				"path": "5-ssc/eons_elite/4-dino_rang-eons_elite"
+			},
+			"slam_bam-eons_elite": {
+				"type": "figure",
+				"name": "Eon's Elite Slam Bam",
+				"path": "5-ssc/eons_elite/6-slam_bam-eons_elite"
+			},
+			"voodood-eons_elite": {
+				"type": "figure",
+				"name": "Eon's Elite Voodood",
+				"path": "5-ssc/eons_elite/7-voodood-eons_elite"
+			},
+			"boomer-eons_elite": {
+				"type": "figure",
+				"name": "Eon's Elite Boomer",
+				"path": "5-ssc/eons_elite/8-boomer-eons_elite"
+			}
+		}
+	},
+	"_sep1": {
+		"type": "sep"
+	},
+
+	"items": {
+		"type": "folder",
+		"name": "Magic Items",
+		"children": {
+			"ssa": {
+				"type": "folder",
+				"name": "Spyro's Adventure",
+				"children": {
+					"anvil_rain": {
+						"type": "item",
+						"name": "Anvil Rain",
+						"path": "1-ssa/items/anvil_rain"
+					},
+					"ghost_pirate_swords": {
+						"type": "item",
+						"name": "Ghost Pirate Swords",
+						"path": "1-ssa/items/ghost_pirate_swords"
+					},
+					"healing_elixir": {
+						"type": "item",
+						"name": "Healing Elixir",
+						"path": "1-ssa/items/healing_elixir"
+					},
+					"hidden_treasure": {
+						"type": "item",
+						"name": "Hidden Treasure",
+						"path": "1-ssa/items/hidden_treasure"
+					},
+					"sky_iron_shield": {
+						"type": "item",
+						"name": "Sky-Iron Shield",
+						"path": "1-ssa/items/sky_iron_shield"
+					},
+					"sparx_the_dragonfly": {
+						"type": "item",
+						"name": "Sparx the Dragonfly",
+						"path": "1-ssa/items/sparx_the_dragonfly"
+					},
+					"time_twister_hourglass": {
+						"type": "item",
+						"name": "Time Twister Hourglass",
+						"path": "1-ssa/items/time_twister_hourglass"
+					},
+					"volcanic_vault": {
+						"type": "item",
+						"name": "Volcanic Vault",
+						"path": "1-ssa/items/volcanic_vault"
+					},
+					"winged_boots": {
+						"type": "item",
+						"name": "Winged Boots",
+						"path": "1-ssa/items/winged_boots"
+					}
+				}
+			},
+			"sg": {
+				"type": "folder",
+				"name": "Giants",
+				"children": {
+					"dragonfire_cannon": {
+						"type": "item",
+						"name": "Dragonfire Cannon",
+						"path": "2-sg/items/dragonfire_cannon"
+					},
+					"dragonfire_cannon-golden": {
+						"type": "item",
+						"name": "Golden Dragonfire Cannon",
+						"path": "2-sg/items/dragonfire_cannon-golden"
+					},
+					"treasure_chest-platinum": {
+						"type": "item",
+						"name": "Platinum Treasure Chest",
+						"path": "2-sg/items/treasure_chest-platinum"
+					},
+					"scorpion_striker": {
+						"type": "item",
+						"name": "Scorpion Striker",
+						"path": "2-sg/items/scorpion_striker"
+					}
+				}
+			},
+			"ssf": {
+				"type": "folder",
+				"name": "Swap Force",
+				"children": {
+					"arkeyan_crossbow": {
+						"type": "item",
+						"name": "Arkeyan Crossbow",
+						"path": "3-ssf/items/arkeyan_crossbow"
+					},
+					"battle_hammer": {
+						"type": "item",
+						"name": "Battle Hammer",
+						"path": "3-ssf/items/battle_hammer"
+					},
+					"fiery_forge": {
+						"type": "item",
+						"name": "Fiery Forge",
+						"path": "3-ssf/items/fiery_forge"
+					},
+					"groove_machine": {
+						"type": "item",
+						"name": "Groove Machine",
+						"path": "3-ssf/items/groove_machine"
+					},
+					"platinum_sheep": {
+						"type": "item",
+						"name": "Platinum Sheep",
+						"path": "3-ssf/items/platinum_sheep"
+					},
+					"sky_diamond": {
+						"type": "item",
+						"name": "Sky Diamond",
+						"path": "3-ssf/items/sky_diamond"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+					"ufo_hat": {
+						"type": "item",
+						"name": "UFO Hat",
+						"path": "3-ssf/items/ufo_hat"
+					}
+				}
+			},
+			"stt": {
+				"type": "folder",
+				"name": "Trap Team",
+				"children": {
+					"hand_of_fate": {
+						"type": "item",
+						"name": "Hand of Fate",
+						"path": "4-stt/items/hand_of_fate"
+					},
+					"hand_of_fate-legendary": {
+						"type": "item",
+						"name": "Legendary Hand of Fate",
+						"path": "4-stt/items/hand_of_fate-legendary"
+					},
+					"piggy_bank": {
+						"type": "item",
+						"name": "Piggy Bank",
+						"path": "4-stt/items/piggy_bank"
+					},
+					"rocket_ram": {
+						"type": "item",
+						"name": "Rocket Ram",
+						"path": "4-stt/items/rocket_ram"
+					},
+					"tiki_speaky": {
+						"type": "item",
+						"name": "Tiki Speaky",
+						"path": "4-stt/items/tiki_speaky"
+					}
+				}
+			},
+			"ssc": {
+				"type": "folder",
+				"name": "SuperChargers",
+				"children": {
+					"land_trophy": {
+						"type": "item",
+						"name": "Land Trophy",
+						"path": "5-ssc/items/land_trophy"
+					},
+					"sea_trophy": {
+						"type": "item",
+						"name": "Sea Trophy",
+						"path": "5-ssc/items/sea_trophy"
+					},
+					"sky_trophy": {
+						"type": "item",
+						"name": "Sky Trophy",
+						"path": "5-ssc/items/sky_trophy"
+					},
+					"kaos_trophy": {
+						"type": "item",
+						"name": "Kaos Trophy",
+						"path": "5-ssc/items/kaos_trophy"
+					}
+				}
+			},
+			"si": {
+				"type": "folder",
+				"name": "Imaginators",
+				"children": {
+					"bronze": {
+						"type": "folder",
+						"name": "Bronze Chests",
+						"children": {
+							"chest-1": {
+								"type": "item",
+								"name": "Chest 1",
+								"path": "6-si/items/1-bronze/chest-1"
+							},
+							"chest-2": {
+								"type": "item",
+								"name": "Chest 2",
+								"path": "6-si/items/1-bronze/chest-2"
+							},
+							"chest-3": {
+								"type": "item",
+								"name": "Chest 3",
+								"path": "6-si/items/1-bronze/chest-3"
+							},
+							"chest-4": {
+								"type": "item",
+								"name": "Chest 4",
+								"path": "6-si/items/1-bronze/chest-4"
+							},
+							"chest-5": {
+								"type": "item",
+								"name": "Chest 5",
+								"path": "6-si/items/1-bronze/chest-5"
+							},
+							"chest-6": {
+								"type": "item",
+								"name": "Chest 6",
+								"path": "6-si/items/1-bronze/chest-6"
+							},
+							"chest-7": {
+								"type": "item",
+								"name": "Chest 7",
+								"path": "6-si/items/1-bronze/chest-7"
+							},
+							"chest-8": {
+								"type": "item",
+								"name": "Chest 8",
+								"path": "6-si/items/1-bronze/chest-8"
+							},
+							"chest-9": {
+								"type": "item",
+								"name": "Chest 9",
+								"path": "6-si/items/1-bronze/chest-9"
+							},
+							"chest-10": {
+								"type": "item",
+								"name": "Chest 10",
+								"path": "6-si/items/1-bronze/chest-10"
+							},
+							"chest-11": {
+								"type": "item",
+								"name": "Chest 11",
+								"path": "6-si/items/1-bronze/chest-11"
+							},
+							"chest-12": {
+								"type": "item",
+								"name": "Chest 12",
+								"path": "6-si/items/1-bronze/chest-12"
+							},
+							"chest-13": {
+								"type": "item",
+								"name": "Chest 13",
+								"path": "6-si/items/1-bronze/chest-13"
+							},
+							"chest-14": {
+								"type": "item",
+								"name": "Chest 14",
+								"path": "6-si/items/1-bronze/chest-14"
+							},
+							"chest-15": {
+								"type": "item",
+								"name": "Chest 15",
+								"path": "6-si/items/1-bronze/chest-15"
+							},
+							"chest-16": {
+								"type": "item",
+								"name": "Chest 16",
+								"path": "6-si/items/1-bronze/chest-16"
+							},
+							"chest-17": {
+								"type": "item",
+								"name": "Chest 17",
+								"path": "6-si/items/1-bronze/chest-17"
+							},
+							"chest-18": {
+								"type": "item",
+								"name": "Chest 18",
+								"path": "6-si/items/1-bronze/chest-18"
+							},
+							"chest-19": {
+								"type": "item",
+								"name": "Chest 19",
+								"path": "6-si/items/1-bronze/chest-19"
+							},
+							"chest-20": {
+								"type": "item",
+								"name": "Chest 20",
+								"path": "6-si/items/1-bronze/chest-20"
+							},
+							"chest-21": {
+								"type": "item",
+								"name": "Chest 21",
+								"path": "6-si/items/1-bronze/chest-21"
+							},
+							"chest-22": {
+								"type": "item",
+								"name": "Chest 22",
+								"path": "6-si/items/1-bronze/chest-22"
+							},
+							"chest-23": {
+								"type": "item",
+								"name": "Chest 23",
+								"path": "6-si/items/1-bronze/chest-23"
+							},
+							"chest-24": {
+								"type": "item",
+								"name": "Chest 24",
+								"path": "6-si/items/1-bronze/chest-24"
+							},
+							"chest-25": {
+								"type": "item",
+								"name": "Chest 25",
+								"path": "6-si/items/1-bronze/chest-25"
+							},
+							"chest-26": {
+								"type": "item",
+								"name": "Chest 26",
+								"path": "6-si/items/1-bronze/chest-26"
+							},
+							"chest-27": {
+								"type": "item",
+								"name": "Chest 27",
+								"path": "6-si/items/1-bronze/chest-27"
+							},
+							"chest-28": {
+								"type": "item",
+								"name": "Chest 28",
+								"path": "6-si/items/1-bronze/chest-28"
+							},
+							"chest-29": {
+								"type": "item",
+								"name": "Chest 29",
+								"path": "6-si/items/1-bronze/chest-29"
+							},
+							"chest-30": {
+								"type": "item",
+								"name": "Chest 30",
+								"path": "6-si/items/1-bronze/chest-30"
+							},
+							"chest-31": {
+								"type": "item",
+								"name": "Chest 31",
+								"path": "6-si/items/1-bronze/chest-31"
+							},
+							"chest-32": {
+								"type": "item",
+								"name": "Chest 32",
+								"path": "6-si/items/1-bronze/chest-32"
+							},
+							"chest-33": {
+								"type": "item",
+								"name": "Chest 33",
+								"path": "6-si/items/1-bronze/chest-33"
+							},
+							"chest-34": {
+								"type": "item",
+								"name": "Chest 34",
+								"path": "6-si/items/1-bronze/chest-34"
+							},
+							"chest-35": {
+								"type": "item",
+								"name": "Chest 35",
+								"path": "6-si/items/1-bronze/chest-35"
+							},
+							"chest-36": {
+								"type": "item",
+								"name": "Chest 36",
+								"path": "6-si/items/1-bronze/chest-36"
+							},
+							"chest-37": {
+								"type": "item",
+								"name": "Chest 37",
+								"path": "6-si/items/1-bronze/chest-37"
+							},
+							"chest-38": {
+								"type": "item",
+								"name": "Chest 38",
+								"path": "6-si/items/1-bronze/chest-38"
+							},
+							"chest-39": {
+								"type": "item",
+								"name": "Chest 39",
+								"path": "6-si/items/1-bronze/chest-39"
+							},
+							"chest-40": {
+								"type": "item",
+								"name": "Chest 40",
+								"path": "6-si/items/1-bronze/chest-40"
+							},
+							"chest-41": {
+								"type": "item",
+								"name": "Chest 41",
+								"path": "6-si/items/1-bronze/chest-41"
+							},
+							"chest-42": {
+								"type": "item",
+								"name": "Chest 42",
+								"path": "6-si/items/1-bronze/chest-42"
+							},
+							"chest-43": {
+								"type": "item",
+								"name": "Chest 43",
+								"path": "6-si/items/1-bronze/chest-43"
+							},
+							"chest-44": {
+								"type": "item",
+								"name": "Chest 44",
+								"path": "6-si/items/1-bronze/chest-44"
+							},
+							"chest-45": {
+								"type": "item",
+								"name": "Chest 45",
+								"path": "6-si/items/1-bronze/chest-45"
+							},
+							"chest-46": {
+								"type": "item",
+								"name": "Chest 46",
+								"path": "6-si/items/1-bronze/chest-46"
+							},
+							"chest-47": {
+								"type": "item",
+								"name": "Chest 47",
+								"path": "6-si/items/1-bronze/chest-47"
+							},
+							"chest-48": {
+								"type": "item",
+								"name": "Chest 48",
+								"path": "6-si/items/1-bronze/chest-48"
+							},
+							"chest-49": {
+								"type": "item",
+								"name": "Chest 49",
+								"path": "6-si/items/1-bronze/chest-49"
+							},
+							"chest-50": {
+								"type": "item",
+								"name": "Chest 50",
+								"path": "6-si/items/1-bronze/chest-50"
+							},
+							"chest-51": {
+								"type": "item",
+								"name": "Chest 51",
+								"path": "6-si/items/1-bronze/chest-51"
+							},
+							"chest-52": {
+								"type": "item",
+								"name": "Chest 52",
+								"path": "6-si/items/1-bronze/chest-52"
+							},
+							"chest-53": {
+								"type": "item",
+								"name": "Chest 53",
+								"path": "6-si/items/1-bronze/chest-53"
+							},
+							"chest-54": {
+								"type": "item",
+								"name": "Chest 54",
+								"path": "6-si/items/1-bronze/chest-54"
+							},
+							"chest-55": {
+								"type": "item",
+								"name": "Chest 55",
+								"path": "6-si/items/1-bronze/chest-55"
+							}
+						}
+					},
+					"silver": {
+						"type": "folder",
+						"name": "Silver Chests",
+						"children": {
+							"chest-1": {
+								"type": "item",
+								"name": "Chest 1",
+								"path": "6-si/items/2-silver/chest-1"
+							},
+							"chest-2": {
+								"type": "item",
+								"name": "Chest 2",
+								"path": "6-si/items/2-silver/chest-2"
+							},
+							"chest-3": {
+								"type": "item",
+								"name": "Chest 3",
+								"path": "6-si/items/2-silver/chest-3"
+							},
+							"chest-4": {
+								"type": "item",
+								"name": "Chest 4",
+								"path": "6-si/items/2-silver/chest-4"
+							},
+							"chest-5": {
+								"type": "item",
+								"name": "Chest 5",
+								"path": "6-si/items/2-silver/chest-5"
+							},
+							"chest-6": {
+								"type": "item",
+								"name": "Chest 6",
+								"path": "6-si/items/2-silver/chest-6"
+							},
+							"chest-7": {
+								"type": "item",
+								"name": "Chest 7",
+								"path": "6-si/items/2-silver/chest-7"
+							},
+							"chest-8": {
+								"type": "item",
+								"name": "Chest 8",
+								"path": "6-si/items/2-silver/chest-8"
+							},
+							"chest-9": {
+								"type": "item",
+								"name": "Chest 9",
+								"path": "6-si/items/2-silver/chest-9"
+							},
+							"chest-10": {
+								"type": "item",
+								"name": "Chest 10",
+								"path": "6-si/items/2-silver/chest-10"
+							},
+							"chest-11": {
+								"type": "item",
+								"name": "Chest 11",
+								"path": "6-si/items/2-silver/chest-11"
+							},
+							"chest-12": {
+								"type": "item",
+								"name": "Chest 12",
+								"path": "6-si/items/2-silver/chest-12"
+							},
+							"chest-13": {
+								"type": "item",
+								"name": "Chest 13",
+								"path": "6-si/items/2-silver/chest-13"
+							},
+							"chest-14": {
+								"type": "item",
+								"name": "Chest 14",
+								"path": "6-si/items/2-silver/chest-14"
+							},
+							"chest-15": {
+								"type": "item",
+								"name": "Chest 15",
+								"path": "6-si/items/2-silver/chest-15"
+							},
+							"chest-16": {
+								"type": "item",
+								"name": "Chest 16",
+								"path": "6-si/items/2-silver/chest-16"
+							},
+							"chest-17": {
+								"type": "item",
+								"name": "Chest 17",
+								"path": "6-si/items/2-silver/chest-17"
+							},
+							"chest-18": {
+								"type": "item",
+								"name": "Chest 18",
+								"path": "6-si/items/2-silver/chest-18"
+							},
+							"chest-19": {
+								"type": "item",
+								"name": "Chest 19",
+								"path": "6-si/items/2-silver/chest-19"
+							},
+							"chest-20": {
+								"type": "item",
+								"name": "Chest 20",
+								"path": "6-si/items/2-silver/chest-20"
+							},
+							"chest-21": {
+								"type": "item",
+								"name": "Chest 21",
+								"path": "6-si/items/2-silver/chest-21"
+							},
+							"chest-22": {
+								"type": "item",
+								"name": "Chest 22",
+								"path": "6-si/items/2-silver/chest-22"
+							},
+							"chest-23": {
+								"type": "item",
+								"name": "Chest 23",
+								"path": "6-si/items/2-silver/chest-23"
+							},
+							"chest-24": {
+								"type": "item",
+								"name": "Chest 24",
+								"path": "6-si/items/2-silver/chest-24"
+							},
+							"chest-25": {
+								"type": "item",
+								"name": "Chest 25",
+								"path": "6-si/items/2-silver/chest-25"
+							},
+							"chest-26": {
+								"type": "item",
+								"name": "Chest 26",
+								"path": "6-si/items/2-silver/chest-26"
+							},
+							"chest-27": {
+								"type": "item",
+								"name": "Chest 27",
+								"path": "6-si/items/2-silver/chest-27"
+							},
+							"chest-28": {
+								"type": "item",
+								"name": "Chest 28",
+								"path": "6-si/items/2-silver/chest-28"
+							},
+							"chest-29": {
+								"type": "item",
+								"name": "Chest 29",
+								"path": "6-si/items/2-silver/chest-29"
+							},
+							"chest-30": {
+								"type": "item",
+								"name": "Chest 30",
+								"path": "6-si/items/2-silver/chest-30"
+							},
+							"chest-31": {
+								"type": "item",
+								"name": "Chest 31",
+								"path": "6-si/items/2-silver/chest-31"
+							},
+							"chest-32": {
+								"type": "item",
+								"name": "Chest 32",
+								"path": "6-si/items/2-silver/chest-32"
+							},
+							"chest-33": {
+								"type": "item",
+								"name": "Chest 33",
+								"path": "6-si/items/2-silver/chest-33"
+							},
+							"chest-34": {
+								"type": "item",
+								"name": "Chest 34",
+								"path": "6-si/items/2-silver/chest-34"
+							},
+							"chest-35": {
+								"type": "item",
+								"name": "Chest 35",
+								"path": "6-si/items/2-silver/chest-35"
+							},
+							"chest-36": {
+								"type": "item",
+								"name": "Chest 36",
+								"path": "6-si/items/2-silver/chest-36"
+							}
+						}
+					},
+					"gold": {
+						"type": "folder",
+						"name": "Gold Chests",
+						"children": {
+							"chest-1": {
+								"type": "item",
+								"name": "Chest 1",
+								"path": "6-si/items/3-gold/chest-1"
+							},
+							"chest-2": {
+								"type": "item",
+								"name": "Chest 2",
+								"path": "6-si/items/3-gold/chest-2"
+							},
+							"chest-3": {
+								"type": "item",
+								"name": "Chest 3",
+								"path": "6-si/items/3-gold/chest-3"
+							},
+							"chest-4": {
+								"type": "item",
+								"name": "Chest 4",
+								"path": "6-si/items/3-gold/chest-4"
+							},
+							"chest-5": {
+								"type": "item",
+								"name": "Chest 5",
+								"path": "6-si/items/3-gold/chest-5"
+							},
+							"chest-6": {
+								"type": "item",
+								"name": "Chest 6",
+								"path": "6-si/items/3-gold/chest-6"
+							},
+							"chest-7": {
+								"type": "item",
+								"name": "Chest 7",
+								"path": "6-si/items/3-gold/chest-7"
+							},
+							"chest-8": {
+								"type": "item",
+								"name": "Chest 8",
+								"path": "6-si/items/3-gold/chest-8"
+							},
+							"chest-9": {
+								"type": "item",
+								"name": "Chest 9",
+								"path": "6-si/items/3-gold/chest-9"
+							},
+							"chest-10": {
+								"type": "item",
+								"name": "Chest 10",
+								"path": "6-si/items/3-gold/chest-10"
+							},
+							"chest-11": {
+								"type": "item",
+								"name": "Chest 11",
+								"path": "6-si/items/3-gold/chest-11"
+							},
+							"chest-12": {
+								"type": "item",
+								"name": "Chest 12",
+								"path": "6-si/items/3-gold/chest-12"
+							},
+							"chest-13": {
+								"type": "item",
+								"name": "Chest 13",
+								"path": "6-si/items/3-gold/chest-13"
+							},
+							"chest-14": {
+								"type": "item",
+								"name": "Chest 14",
+								"path": "6-si/items/3-gold/chest-14"
+							},
+							"chest-15": {
+								"type": "item",
+								"name": "Chest 15",
+								"path": "6-si/items/3-gold/chest-15"
+							}
+						}
+					},
+					"cursed_tiki_temple": {
+						"type": "folder",
+						"name": "Blue Chest (Cursed Tiki Temple)",
+						"children": {
+							"chest-1": {
+								"type": "item",
+								"name": "Chest 1",
+								"path": "6-si/items/4-cursed_tiki_temple/chest-1"
+							},
+							"chest-2": {
+								"type": "item",
+								"name": "Chest 2",
+								"path": "6-si/items/4-cursed_tiki_temple/chest-2"
+							}
+						}
+					},
+					"lost_imaginite_mines": {
+						"type": "folder",
+						"name": "Blue Chest (Lost Imaginite Mines)",
+						"children": {
+							"chest-1": {
+								"type": "item",
+								"name": "Chest 1",
+								"path": "6-si/items/5-lost_imaginite_mines/chest-1"
+							},
+							"chest-2": {
+								"type": "item",
+								"name": "Chest 2",
+								"path": "6-si/items/5-lost_imaginite_mines/chest-2"
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"packs": {
+		"type": "folder",
+		"name": "Adventure Packs",
+		"children": {
+			"ssa_sg": {
+				"type": "folder",
+				"name": "Spyro's Adventure & Giants",
+				"children": {
+					"empire_of_ice": {
+						"type": "item",
+						"name": "Empire of Ice",
+						"path": "1-ssa/packs/1-empire_of_ice"
+					},
+					"pirate_seas": {
+						"type": "item",
+						"name": "Pirate Seas",
+						"path": "1-ssa/packs/2-pirate_seas"
+					},
+					"darklight_crypt": {
+						"type": "item",
+						"name": "Darklight Crypt",
+						"path": "1-ssa/packs/3-darklight_crypt"
+					},
+					"dragons_peak": {
+						"type": "item",
+						"name": "Dragon's Peak",
+						"path": "1-ssa/packs/4-dragons_peak"
+					}
+				}
+			},
+			"ssf": {
+				"type": "folder",
+				"name": "Swap Force",
+				"children": {
+					"tower_of_time": {
+						"type": "item",
+						"name": "Tower of Time",
+						"path": "3-ssf/packs/1-tower_of_time"
+					},
+					"sheep_wreck_island": {
+						"type": "item",
+						"name": "Sheep Wreck Island",
+						"path": "3-ssf/packs/2-sheep_wreck_island"
+					}
+				}
+			},
+			"stt": {
+				"type": "folder",
+				"name": "Trap Team",
+				"children": {
+					"midnight_museum": {
+						"type": "item",
+						"name": "Midnight Museum",
+						"path": "4-stt/packs/1-midnight_museum"
+					},
+					"midnight_museum-lightcore": {
+						"type": "item",
+						"name": "LightCore Midnight Museum",
+						"path": "4-stt/packs/1-midnight_museum-lightcore"
+					},
+					"sunscraper_spire": {
+						"type": "item",
+						"name": "Sunscraper Spire",
+						"path": "4-stt/packs/2-sunscraper_spire"
+					},
+					"sunscraper_spire-lightcore": {
+						"type": "item",
+						"name": "LightCore Sunscraper Spire",
+						"path": "4-stt/packs/2-sunscraper_spire-lightcore"
+					},
+					"_sep": {
+						"type": "sep"
+					},
+
+					"nightmare_express": {
+						"type": "item",
+						"name": "Nightmare Express",
+						"path": "4-stt/packs/3-nightmare_express"
+					},
+					"mirror_of_mystery": {
+						"type": "item",
+						"name": "Mirror of Mystery",
+						"path": "4-stt/packs/4-mirror_of_mystery"
+					}
+				}
+			},
+			"si": {
+				"type": "folder",
+				"name": "Imaginators",
+				"children": {
+					"gryphon_park_observatory": {
+						"type": "item",
+						"name": "Gryphon Park Observatory",
+						"path": "6-si/packs/1-gryphon_park_observatory"
+					},
+					"enchanted_elven_forest": {
+						"type": "item",
+						"name": "Enchanted Elven Forest",
+						"path": "6-si/packs/2-enchanted_elven_forest"
+					}
+				}
+			}
+		}
+	}
+}

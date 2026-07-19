@@ -1,0 +1,67 @@
+{
+  "0": {
+    "0": "Whirlwind",
+    "6145": "Series 2 Whirlwind",
+    "7170": "Polar Whirlwind",
+    "10245": "Horn Blast Whirlwind",
+    "14352": "Eon's Elite Whirlwind"
+  },
+  "1": {
+    "0": "Sonic Boom",
+    "6145": "Series 2 Sonic Boom"
+  },
+  "2": {
+    "0": "Warnado",
+    "8710": "LightCore Warnado"
+  },
+  "3": {
+    "0": "Lightning Rod",
+    "6145": "Series 2 Lightning Rod"
+  },
+  "9": {
+    "0": "Eruptor",
+    "4614": "LightCore Eruptor",
+    "6145": "Series 2 Eruptor",
+    "10245": "Lava Barf Eruptor",
+    "11266": "Volcanic Lava Barf Eruptor",
+    "14352": "Eon's Elite Eruptor"
+  },
+  "12": {
+    "0": "Zap",
+    "6145": "Series 2 Zap"
+  },
+  "25": {
+    "0": "Zook",
+    "6145": "Series 2 Zook",
+    "18448": "Eon's Elite Zook"
+  },
+  "26": {
+    "0": "Stealth Elf",
+    "6145": "Series 2 Stealth Elf",
+    "7171": "Legendary Stealth Elf (Series 2)",
+    "10245": "Ninja Stealth Elf",
+    "11266": "Dark Ninja Stealth Elf",
+    "14352": "Eon's Elite Stealth Elf"
+  },
+  "27": {
+    "0": "Stump Smash",
+    "6145": "Series 2 Stump Smash"
+  },
+  "30": {
+    "0": "Chop Chop",
+    "6145": "Series 2 Chop Chop",
+    "10245": "Twin Blade Chop Chop",
+    "14352": "Eon's Elite Chop Chop"
+  },
+  "430": {
+    "0": "Legendary Chop Chop"
+  },
+  "507": {
+    "0": "Weeruptor",
+    "13314": "Eggcellent Weeruptor"
+  },
+  "3415": {
+    "0": "Super Shot Stealth Elf",
+    "17666": "Dark Super Shot Stealth Elf"
+  }
+}
