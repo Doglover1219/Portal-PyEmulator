@@ -165,13 +165,12 @@ class MusicHandler:
 
 		return self.is_busy, self.is_finished
 
-	def play_file_and_wait(self, filepath: Path, volume: float|int = 1, start_s: float|int=0, end_s: float|int=-1, sleep_s: int = 1) -> None:
+	def play_file_and_wait(self, filepath: Path, volume: float|int = 1, start_s: float|int=0, end_s: float|int=-1) -> None:
 		"""Play an audio file through the Portal's speakers, and wait until the playback is done.
 
 		Args:
 			 filepath (Path): The path to the file to play (must contain 16-bit mono WAV audio at 8000Hz).
 			 volume (float|int): The volume (on a scale from 0 to 1) at which to play the audio. Defaults to 1.
-			 sleep_s (int): How long, in seconds, to wait until querying the next frame.
 			 start_s (float|int): The time, in seconds, at which to cut the start of the track. Defaults to 0.
 			 end_s (float|int): The time, in seconds, at which to cut the end of the track (-1 = end). Defaults to -1.
 
