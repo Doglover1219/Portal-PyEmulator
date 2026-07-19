@@ -1,0 +1,17 @@
+*
+
+# Files
+!.gitignore
+!LICENSE
+!pyproject.toml
+!README.md
+
+# Folders
+!assets/
+!assets/**
+
+!src/
+!src/**
+
+!tests/
+!tests/*
