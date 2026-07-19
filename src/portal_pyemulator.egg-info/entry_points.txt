@@ -1,0 +1,2 @@
+[console_scripts]
+portal-emulator = portal_pyemulator.main:main
