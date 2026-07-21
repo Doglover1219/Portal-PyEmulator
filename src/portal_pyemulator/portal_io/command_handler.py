@@ -29,8 +29,8 @@ class CommandHandler:
 		"""Build a command packet to send to the Portal of Power
 
 		Args:
-			cmd_type (CommandType): The type of command to send (determines first byte).
-			data (tuple[bytes]): The data to send to the Portal.
+			cmd_type: The type of command to send (determines first byte).
+			data: The data to send to the Portal.
 
 		Returns:
 			bytearray: The built command packet.
@@ -50,12 +50,12 @@ class CommandHandler:
 		"""Verify the colour values are between 0 and 255 and raise an error if not.
 
 		Args:
-			r (int): The red colour value.
-			g (int): The green colour value.
-			b (int): The blue colour value.
+			r: The red colour value.
+			g: The green colour value.
+			b: The blue colour value.
 
 		Returns:
-			tuple[bytes, bytes, bytes]: The rgb colour values in bytes.
+			The rgb colour values in bytes.
 
 		Raises:
 			ValueError: If any colour values is outside the range of 0 to 255.
@@ -66,47 +66,43 @@ class CommandHandler:
 			helpers.uint(b, 8)
 		)
 
+	def _get_command_response(self, cmd_type, *, timeout_sec: Optional[float|int] = 10) -> Optional[bytes]:
+		try:
+			response = self.input_queues[cmd_type].get(timeout=timeout_sec)
+			return response
+		except queue.Empty:
+			return None
+
 	#:=-- Public --=:#
 	def send_command(self, packet: bytes) -> None:
-		"""Send a control command that does not expect to the Power of Power.
+		"""Send a control command to the Power of Power that does not expect a response.
 
 		Args:
-			packet (bytes): The control command to send.
+			packet: The control command to send.
 		"""
 		self.logger.info(f"Sending Control Command: {helpers.bytes_to_str(packet)[1]}")
 
 		self.portal.ctrl_transfer(0x21, 0x09, 0x0200, 0x00, packet)
 
-	def _get_command_response(self, cmd_type, *, timeout_sec: Optional[float|int] = 10) -> Optional[bytes]:
-		if timeout_sec is None:
-			response = self.input_queues[cmd_type].get()
-			return response
-
-		try:
-			response = self.input_queues[cmd_type].get()
-			return response
-		except queue.Empty:
-			return None
-
 	@overload
-	def send_response_command(self, packet: bytes, *, timeout_sec: None = None) -> bytes:
+	def send_response_command(self, packet: bytes, *, timeout_sec: None = None, retries: int = 1) -> bytes:
 		...
 
 	@overload
-	def send_response_command(self, packet: bytes, *, timeout_sec: float|int) -> Optional[bytes]:
+	def send_response_command(self, packet: bytes, *, timeout_sec: float|int, retries: int = 1) -> Optional[bytes]:
 		...
 
 	def send_response_command(self, packet: bytes, *, timeout_sec: Optional[float|int] = 10, retries: int = 1) -> Optional[bytes]:
 		"""
-		Send a control command expecting a response to the Portal of Power.
+		Send a control command to the Portal of Power that expects a response.
 
 		Args:
-			packet (bytes): The control command to send.
-			timeout_sec (Optional[float|int]): If not None, after how many seconds to timeout. Defaults to 10.
-			retries (bool): How many times to retry sending the command (-1 = infinite). Defaults to 1.
+			packet: The control command to send.
+			timeout_sec: If not None, after how many seconds to timeout. Defaults to 10.
+			retries: How many times to retry sending the command (-1 = infinite). Defaults to 1.
 
 		Returns:
-			bytes: The response packet.
+			The response packet.
 		"""
 		cmd_type = chr(packet[0])
 		if cmd_type not in self.input_queues:
@@ -149,10 +145,10 @@ class CommandHandler:
 		Activates and deactivates the Portal.
 
 		Args:
-			do_activate (bool): Whether to activate or deactivate the Portal of Power.
+			do_activate: Whether to activate or deactivate the Portal of Power.
 
 		Returns:
-			bytes: mirrors the command with addition of unknown constants 0xFF and 0x77.
+			Mirrors the command with addition of unknown constants 0xFF and 0x77.
 		"""
 		packet = self._build_command(
 			CommandType.ACTIVATE,
@@ -169,9 +165,9 @@ class CommandHandler:
 		No response.
 
 		Args:
-			r (int): The red colour value.
-			g (int): The green colour value.
-			b (int): The blue colour value.
+			r: The red colour value.
+			g: The green colour value.
+			b: The blue colour value.
 		"""
 		colors = self._rgb_u8(r, g, b)
 
@@ -182,25 +178,29 @@ class CommandHandler:
 
 		self.send_command(packet)
 
-	def color_fade(self, side: Literal[0x00, 0x02], r: int, g: int, b: int, fade_ms: int) -> bytes:
+	def color_fade(self, side: Literal[0x00, 0x02, "left", "right"], r: int, g: int, b: int, fade_ms: int) -> bytes:
 		"""
 		Send the Colour Fade (J) command to the Portal of Power. (Receives response; Traptanium Portal only)\n
 		Fade the LED colours of the chosen side in the Portal to a specified colour value.
 
 		Args:
-			side (Literal[0x00, 0x02]): The side to set the colour of (0x00 = left, 0x02 = right).
-			r (int): The red colour value.
-			g (int): The green colour value.
-			b (int): The blue colour value.
-			fade_ms (int): The amount of time to fade from the previous colour to this colour.
+			side: The side to set the colour of (0x00 = left, 0x02 = right).
+			r: The red colour value.
+			g: The green colour value.
+			b: The blue colour value.
+			fade_ms: The amount of time to fade from the previous colour to this colour.
 
 		Returns:
-			bytes: The Portal's signal that the timer has started (`J`).
+			The Portal's signal that the timer has started (`J`).
 		"""
 		colors = self._rgb_u8(r, g, b)
 
-		if side not in (0x00, 0x02):
-			raise ValueError(f"side out of range (0x00, 0x02): {side}")
+		if side not in (0x00, 0x02, "left", "right"):
+			raise ValueError(f"side out of range (0x00, 0x02, \"left\", \"right\"): {side}")
+
+		match side:
+			case "left": side = 0x00
+			case "right": side = 0x02
 
 		packet = self._build_command(
 			CommandType.J_COLOR,
@@ -212,21 +212,25 @@ class CommandHandler:
 		response = self.send_response_command(packet)
 		return response
 
-	def light_portal(self, side: Literal[0x00, 0x02], r: int, g: int, b: int) -> None:
+	def light_portal(self, side: Literal[0x00, 0x02, "left", "right"], r: int, g: int, b: int) -> None:
 		"""
 		Send the Light (L) command to the Portal of Power. (No response; Traptanium Portal only)\n
 		Set the LED colours of the chosen side in the Portal to a specified colour value.
 
 		Args:
-			side (Literal[0x00, 0x02]): The side to set the colour of. (0x00 = left, 0x02 = right).
-			r (int): The red colour value.
-			g (int): The green colour value.
-			b (int): The blue colour value.
+			side: The side to set the colour of. (0x00 = left, 0x02 = right).
+			r: The red colour value.
+			g: The green colour value.
+			b: The blue colour value.
 		"""
 		colors = self._rgb_u8(r, g, b)
 
-		if side not in (0x00, 0x02):
+		if side not in (0x00, 0x02, "left", "right"):
 			raise ValueError(f"side out of range (0x00, 0x02): {side}")
+
+		match side:
+			case "left": side = 0x00
+			case "right": side = 0x02
 
 		packet = self._build_command(
 			CommandType.LIGHT,
@@ -243,7 +247,7 @@ class CommandHandler:
 		NOTE: Trap slot LED only lights up if a figure is being read
 
 		Args:
-			brightness (int): The brightness to set the Trap slot LED to.
+			brightness: The brightness to set the Trap slot LED to.
 		"""
 		packet = self._build_command(
 			CommandType.LIGHT,
@@ -253,23 +257,24 @@ class CommandHandler:
 
 		self.send_command(packet)
 
-	def music(self, do_activate: bool) -> Optional[bytes]:
+	def activate_speakers(self, do_activate: bool, retries: int = 1) -> Optional[bytes]:
 		"""
 		Send the Music (M) command to the Portal of Power. (Receives optional response; Traptanium Portal only)\n
 		Activate or deactivate the Portal's speakers.
 
 		Args:
-			do_activate (bool): Whether to activate or deactivate the speakers.
+			do_activate: Whether to activate or deactivate the speakers.
+			retries: How many times to retry (-1 = infinite). Defaults to 1.
 
 		Returns:
-			Optional[bytes]: mirrors the command with addition of unknown range (0x00 to 0xFF) and constant 0x19.
+			Mirrors the command with addition of unknown range (0x00 to 0xFF) and constant 0x19.
 		"""
 		packet = self._build_command(
 			CommandType.MUSIC,
 			helpers.uint(do_activate, 8)
 		)
 
-		response = self.send_response_command(packet, timeout_sec=1)
+		response = self.send_response_command(packet, timeout_sec=1, retries=retries)
 		return response
 
 	def query(self, figure_index: int, block_index: int) -> bytes:
@@ -278,11 +283,11 @@ class CommandHandler:
 		Receives response.
 
 		Args:
-			figure_index (int): The slot index of the figure to query.
-			block_index (int): The index of the block to query.
+			figure_index: The slot index of the figure to query.
+			block_index: The index of the block to query.
 
 		Returns:
-			bytes: mirrors the command with addition of figure/block data
+			Mirrors the command with addition of figure/block data.
 		"""
 		if figure_index not in range (0x10):
 			raise ValueError(f"figure_index out of range (0 to 15): {figure_index}")
@@ -305,8 +310,7 @@ class CommandHandler:
 		Receives response.
 
 		Returns:
-			bytes: mirrors the command with addition of ranges (0x00, 0x01) and (0x00 to 0xFF)
-			that identify the portal.
+			Mirrors the command with addition of ranges (0x00, 0x01) and (0x00 to 0xFF) that identify the portal.
 		"""
 		packet = self._build_command(
 			CommandType.READY
@@ -321,7 +325,7 @@ class CommandHandler:
 		Receives response.
 
 		Returns:
-			bytes: mirrors the command with addition of the character status array, a byte-long counter,
+			Mirrors the command with addition of the character status array, a byte-long counter,
 			and a boolean whether the READY command has been sent beforehand.
 		"""
 		packet = self._build_command(
@@ -337,12 +341,12 @@ class CommandHandler:
 		Receives response.
 
 		Args:
-			figure_index (int): The slot index of the figure to write to.
-			block_index (int): The index of the block to write to.
-			data (bytes): The data to write to the figure/block.
+			figure_index: The slot index of the figure to write to.
+			block_index: The index of the block to write to.
+			data: The data to write to the figure/block.
 
 		Returns:
-			bytes: mirrors the command character and block index, but not the figure index (0x00 instead).
+			Mirrors the command character and block index, but not the figure index (0x00 instead).
 			Written data is not mirrored.
 		"""
 		if figure_index not in range (0x10):
