@@ -11,7 +11,7 @@ from typing import Optional
 #:=---- Helpers ----=:#
 PACKET_SIZE = 64
 PACKET_DELAY = 0.001
-VOLUME_SCALE = 0.14
+VOLUME_SCALE = 0.16
 # reasonable value for 1.0 volume; reasonable max: 0.25 / VOLUME_SCALE. Absolute max: None;
 # experiment however you like; you do you; you break everyone's eardrums with static, hard-clipped noise. Boo-hoo, you.
 
@@ -87,7 +87,7 @@ class MusicHandler:
 		with wave.open(str(filepath), "rb") as f:
 			audio = f.readframes(f.getnframes())
 
-		samples: bytearray = bytearray()
+		samples: bytearray = bytearray(int(PACKET_SIZE * 4.5))  # Add 4 and a half packets of 00s.
 
 		for i in range(0, len(audio), REQUIRED_BYTE_DEPTH):
 			sample = int.from_bytes(
