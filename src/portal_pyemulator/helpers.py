@@ -53,6 +53,7 @@ def get_loggers() -> tuple[logging.Logger, logging.Logger]:
 	return main_logger, stream_logger
 
 _MEIPASS: str | None = getattr(sys, "_MEIPASS", None)
+_FROZEN: bool = getattr(sys, "frozen", False)
 
 def get_asset_path(relative_path: str | Path) -> Path:
 	meipass_path: Path | None = Path(_MEIPASS) if _MEIPASS is not None else None
@@ -63,6 +64,9 @@ def get_asset_path(relative_path: str | Path) -> Path:
 	return base_path / "assets" / relative_path
 
 def get_data_path(relative_path: str | Path) -> Path:
+	if not _FROZEN:
+		return Path(__file__).parents[2] / "data" / relative_path
+
 	appdata_dir: str | None = os.getenv("APPDATA")
 
 	if appdata_dir is None:
